@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+.language-switcher {
+    width: 120px;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    display: block;
+}
+.language-switcher #polyglotLanguageSwitcher ul.dropdown {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #222222;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.20);
+    border-image: none;
+    border-left: 1px solid rgba(247, 247, 247, 0.20);
+    border-radius: 0;
+    border-right: 1px solid rgba(247, 247, 247, 0.20);
+    border-top: medium none !important;
+    display: none;
+    left: -2px;
+    position: absolute;
+    top: 31px;
+    z-index: 999999;
+}
+#polyglotLanguageSwitcher, #polyglotLanguageSwitcher * {
+	margin: 0;
+	padding: 0; 
+	outline: none;
+}
+#polyglotLanguageSwitcher ul {
+	list-style: none;	
+}
+
+#polyglotLanguageSwitcher {
+    color: #fff !importent;
+    line-height: normal;
+    position: relative;
+    border: 1px solid rgba(247, 247, 247, 0.20);
+    width: 120px;
+    display: block;
+    margin: 0;
+    padding: 0 10px;
+}
+#polyglotLanguageSwitcher form {
+	display: none;	
+}
+
+/* ---------------------------------------------------------------------- */
+/* JS-created Code
+/* ---------------------------------------------------------------------- */
+#polyglotLanguageSwitcher a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 0px 3px 35px;
+    background-repeat: no-repeat;
+    background-position: 1px center;
+    color: #888888;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#polyglotLanguageSwitcher a.current:link, #polyglotLanguageSwitcher a.current:visited, #polyglotLanguageSwitcher a.current:active {
+	position: relative; /* sets the initial position for the trigger Arrowtyres */
+}
+
+
+
+#polyglotLanguageSwitcher a.active { /* This style is applied as long as the drop-down menu is visible. */
+	border-bottom: none !important;
+	border-radius: 3px 3px 0 0 !important;
+}
+
+#polyglotLanguageSwitcher span.trigger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 45px;
+}
+#polyglotLanguageSwitcher span.trigger:before {
+    content: '\f107';
+    font-family: FontAwesome;
+    position: absolute;
+    color: #888888;
+    top: -4px;
+    right: -45px;
+}
+
+
+#polyglotLanguageSwitcher a.current:hover span.trigger, #polyglotLanguageSwitcher a.current:active span.trigger, #polyglotLanguageSwitcher a.active span.trigger {
+	background-position: left bottom !important;
+}
+/* Drop-Down Menu */
+
+#polyglotLanguageSwitcher ul.dropdown { 
+	display: none;
+	position: absolute;
+	top: 43px;
+	left: -10px;
+	border-top: none !important;
+	border-radius: 0 0 0px 0px;
+	z-index: 99999999999999999999999;
+	background: #d5ac63;
+    border: 1px solid #f0f0f0;
+}
+
+#polyglotLanguageSwitcher ul.dropdown li {
+	width:120px;
+	padding: 0 10px;
+	display: block;
+	border-top: 1px dashed #333333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+#polyglotLanguageSwitcher ul.dropdown li a {
+  width:100%;
+}
+.top_header #polyglotLanguageSwitcher ul.dropdown li:after {
+  display: none !important;
+	
+}
+
+#polyglotLanguageSwitcher ul.dropdown li:first-child {
+	border:none;
+}
+#polyglotLanguageSwitcher ul.dropdown li:last-child { 
+	border-radius: 0 0 3px 3px;
+}
+#polyglotLanguageSwitcher ul.dropdown li:hover a {
+	color: #fff;
+}
+
+/* Flags */
+
+#en { 
+	background-image: url(1gb.png);
+}
+
+#fr { 
+	background-image: url(1fr.png);
+}
+
+#de { 
+	background-image: url(1it.png);
+}
+
+#it { 
+	background-image: url(1es.png);
+}
+
+#es { 
+	background-image: url(1de.png);
+}

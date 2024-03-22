@@ -1,0 +1,73 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/09/2017 07:28
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 0px;
+}
+
+.flaticon-hexagon:before { content: "\f100"; }
+.flaticon-phone-receiver:before { content: "\f101"; }
+.flaticon-transport:before { content: "\f102"; }
+.flaticon-car-wheel:before { content: "\f103"; }
+.flaticon-repair-service:before { content: "\f104"; }
+.flaticon-people:before { content: "\f105"; }
+.flaticon-magnifying-glass:before { content: "\f106"; }
+.flaticon-tool-3:before { content: "\f107"; }
+.flaticon-tool-2:before { content: "\f108"; }
+.flaticon-tool-1:before { content: "\f109"; }
+.flaticon-painter-roller:before { content: "\f10a"; }
+.flaticon-clock:before { content: "\f10b"; }
+.flaticon-telephone:before { content: "\f10c"; }
+.flaticon-envelope:before { content: "\f10d"; }
+.flaticon-black-back-closed-envelope-shape:before { content: "\f10e"; }
+.flaticon-pdf-file-symbol:before { content: "\f10f"; }
+.flaticon-tool:before { content: "\f110"; }
+.flaticon-fax:before { content: "\f111"; }
+.flaticon-write:before { content: "\f112"; }
+.flaticon-location-pin:before { content: "\f113"; }
+.flaticon-file:before { content: "\f114"; }
+.flaticon-Arrowtyress:before { content: "\f115"; }
+.flaticon-calendar:before { content: "\f105"; }
+.flaticon-mechanic:before { content: "\f117"; }
+.flaticon-factory:before { content: "\f118"; }
+.flaticon-maps-and-flags:before { content: "\f119"; }
+.flaticon-medal:before { content: "\f11a"; }
+.flaticon-air-conditioner:before { content: "\f11b"; }
+.flaticon-essential-oil:before { content: "\f11c"; }
+.flaticon-timing-belt:before { content: "\f11d"; }
+.flaticon-water:before { content: "\f11e"; }
+.flaticon-disc-brake:before { content: "\f11f"; }
+.flaticon-engine:before { content: "\f120"; }
+.flaticon-diagnostic:before { content: "\f121"; }
+.flaticon-maintenance:before { content: "\f122"; }
+.flaticon-motor:before { content: "\f123"; }
+.flaticon-document:before { content: "\f124"; }
+.flaticon-avatar:before { content: "\f125"; }
+.flaticon-wrench:before { content: "\f126"; }
+.flaticon-car-repair:before { content: "\f127"; }
+.flaticon-buildings:before { content: "\f128"; }
+.flaticon-technology:before { content: "\f129"; }

@@ -1,0 +1,1234 @@
+
+:root {
+    --blue:  #0023e7;;
+    --indigo: #0023e7;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray1: #ebf6ff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+   
+    
+::-moz-selection{
+    color: #FFFFFF;
+    background: var(--blue);
+}
+
+::selection{
+    color: #FFFFFF;
+    background: var(--blue);
+}
+
+
+
+body {margin:0;padding:0; 
+ 
+    color:#000;
+    font-size:14px;
+    background-color:#fff;
+    min-width:1200px;
+
+    font-family: 'Open Sans', sans-serif;
+
+   
+    line-height: 26px;
+    font-weight: 300;
+
+} 
+h1 {margin:0;padding:0;font-weight:normal;font-size:20px}
+h2 {margin:0;padding:0;font-weight:normal;font-size:20px}
+h3 {margin:0;padding:0;font-weight:normal;font-size:18px}
+h5 {margin:0;padding:0;font-weight:normal;font-size:16px}
+a {text-decoration:none;color:var(--blue)}
+a:hover {cursor:pointer}
+a:visited {} 
+p {line-height:1.5;font-size:15px}
+select {background-color:#fff;border-radius:2px;color:#111}
+input[type=text] {width:50px;font-size:14px;margin:0;padding:0;border-radius:2px} 
+input[type=email] {width:50px;font-size:14px;margin:0;padding:0;border-radius:2px} 
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {-webkit-appearance:none;margin:0}
+input[type=number] {-moz-appearance:textfield;width:50px;height:22px;margin:2px;border-radius:2px;border:1px solid #c0c0c0;padding-left:5px;font-size:16px;box-shadow:none}
+input[type=checkbox] {width:15px;height:15px}
+.checkcomp {margin-top:65px;text-align:center;display:none}
+.checkcomp a {vertical-align:top;display:inline-block;margin-top:4px;font-size:11px;color:#777}
+.checkcomp a:hover {text-decoration:underline;cursor:pointer;color:var(--blue)}
+img {border:none}
+table, th, td {border-collapse:collapse;border-spacing:0px}
+.bold {font-weight:bold;font-size:15px}
+.hide {display:none}
+.bigtext {font-size:16px}
+.smalltext {font-size:11px;margin-top:10px;color:#999}
+.clearboth {clear:both}
+.right {float:right}
+.pgnot {width:300px;color:#333}
+.pgnot span {font-size:80px;color:#435a70}
+.pgnot div span {font-size:20px;color:#999}
+.pgnotimg {float:right;margin:0px 50px 0px 0px}
+#buyonline {display:none}
+.alert {display:none}
+.alertcss {display:block;text-align:center;position:absolute;z-index:10;left:50%;margin-left:-150px;width:280px;background-color:#f0f0f0;box-shadow:0px 0px 10px 2px #000;font-size:16px;border-radius:2px;padding:20px 10px 80px 10px;background:#fff678}
+.alertclose {position:absolute;bottom:20px;right:20px;border:1px solid #999;border-radius:2px;padding:6px 10px;background:#f0f0f0}
+.alertclose:hover {cursor:pointer}
+
+#newsite {width:76%;padding:2%;left:50%;font-size:16px;text-align:center;max-height:200px;margin-left:-40%;background-color:#fff678;box-shadow:0px 0px 10px 2px #000;position:absolute;top:12px;z-index:5}
+#newsite span {font-size:24px}
+.closealert {display:block;float:left;margin:30px 0px 0px 40px;text-align:center;width:75px;height:53px;padding-top:22px;border:3px solid #435a70;border-radius:40px;font-size:18px;background-color:#d0d0d0;color:#000;line-height:.9}
+.touralert {display:block;float:right;margin:30px 40px 0px 0px;text-align:center;width:75px;height:55px;padding-top:20px;border:3px solid #435a70;border-radius:40px;font-size:18px;background-color:#d0d0d0;color:#000;line-height:.9}
+#help a {font-size:16px}
+#help2 {display:none}
+.help {box-shadow:0px 0px 0px 1px #435a70;padding:10px;position:absolute;border-radius:2px;width:280px;height:250px;top:90px;left:50%;margin-left:-150px;font-size:14px;background-color:#fff678;z-index:2;-webkit-transition:all .4s;transition:all .4s;display:none}
+.help span {font-size:24px}
+.newalert {display:block;box-shadow:0px 0px 40px 15px #000}
+.helpstart {display:block}
+.help1 {display:block;left:1px;top:185px;margin:0px;height:160px}.help2 {left:35px}.help3 {left:390px}.help4 {left:785px}.help5 {top:385px;left:50%;margin-left:-150px}.help8 {left:570px}.help9 {top:510px}.help10 {left:18px;top:280px}
+.comphelp5 {top:365px;left:50%;margin-left:-150px}.comphelp4 {left:50%;margin-left:-150px;top:510px}
+.mhelp1 {display:block;top:75px;height:160px;-webkit-transition:height .4s !important;transition:height .4s !important}.mhelp3 {top:450px}.mhelp4 {top:775px}.mhelp7 {top:75px;left:50%;margin-left:-150px}.mhelp8 {top:470px}.mhelp9 {top:960px}.mhelp10 {left:50%;margin-left:-150px;top:180px;-webkit-transition:top .4s !important;transition:top .4s !important}.mhelp11 {top:750px}
+.closehelp {top:20px;left:20px;margin:0px;padding:0px;width:0px;height:0px;overflow:hidden}
+.tutorial {position:absolute;top:10px;left:5px;opacity:1;font-size:10px;color:#435a70}
+.tutorial:hover {opacity:1;cursor:pointer}
+.maintut {display:inline-block;vertical-align:top;width:21px;height:21px;border:2px solid #435a70;font-size:20px;text-align:center;border-radius:12px;margin-right:2px}
+.subtut {position:absolute;width:18px;height:18px;line-height:1.1;border:2px solid #999;font-size:18px;text-align:center;border-radius:12px;color:#999;opacity:.6}
+.subtut:hover {cursor:pointer;opacity:1}
+.tut1 {bottom:5px;left:5px}
+.tut2 {bottom:5px;right:5px}
+#tourArrowtyres {position:absolute;bottom:-15px;left:70px;border-top:15px solid #435a70;border-left:20px solid transparent;border-right:20px solid transparent}
+#tourArrowtyres2 {position:absolute;top:-15px;left:130px;border-bottom:15px solid #435a70;border-left:20px solid transparent;border-right:20px solid transparent}
+.tournext {position:absolute;bottom:5px;right:5px}
+.tourend {position:absolute;bottom:5px;left:5px}
+.tourcount {position:absolute;bottom:5px;left:50%;margin-left:-25px;width:50px;text-align:center}
+.faq {margin-top:20px}
+.faq h2 {color:#435a70;font-size:24px}
+.faq h2 span {color:#a0a0a0;display:block;padding-top:2px}
+.howto p {margin:0px 0px 10px 0px}
+.howto span {font-size:20px;color:var(--orange)}
+.proconh {font-size:42px;color:var(--orange);text-align:center}
+.procon h2 {color:var(--orange);font-size:28px}
+.procon span {color:green;font-size:18px}
+.proconr {color:red !important}
+.procont td {width:50%}
+.procon a {text-decoration:underline}
+.procon p {margin-top:0px}
+
+/** Page Top **/
+
+#Wrap {overflow:hidden}
+#HeaderBack2 {height:40px;position:absolute;top:90px;width:100%;background-color:#fff}
+#HeaderBack {width:100%;min-width:1200px;height:80px;box-shadow:0px 0px 7px 0px #000;position:absolute;z-index:2;background:#fff;margin-top:35px}
+#Header {width:1200px;margin:0 auto;height:80px}
+#signin {float:right;width:600px;height:35px;margin:-33px 5px 0px 0px;color:#333;text-align:right}
+#signin a {display:inline-block;vertical-align:top;margin:0px 5px 0px 5px}
+#signin div {display:inline-block;vertical-align:top;margin:5px 25px 0px 0px;font-size:10px}
+#signin div a {font-weight:bold;margin:4px 10px 0px 5px;color:#fff}
+#signin div a:hover {color:var(--orange)}
+#facebook {background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:5px 3px;background-size:135px;background-color:#4a5ca0;border:1px solid #4a5ca0;display:inline-block;vertical-align:top;margin-left:10px;width:28px;height:28px;border-radius:20px}
+#google {background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-30px 0px;background-size:160px;background-color:#cd272b;border:1px solid #cd272b;display:inline-block;vertical-align:top;margin-left:10px;width:28px;height:28px;border-radius:20px}
+#instagram {background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-50px 5px;background-size:125px;background-color:#962f96;border:1px solid #962f96;display:inline-block;vertical-align:top;margin-left:10px;width:28px;height:28px;border-radius:20px}
+#MenuWrapper {margin:24px 0px 0px 0px;padding:0px;height:31px;position:relative;text-align:right;float:right}
+#MenuWrapper a:hover {cursor:pointer}
+#MenuWrapper a:visited {color:#111}
+.dd {display:inline-block;font-size:15px;text-align:center;position:relative}
+.dd a {display:block;color:#111;padding:6px 18px 6px 18px}
+.dd:hover {border-bottom:2px solid var(--orange)}
+.ddcontent {position:absolute;top:29px;box-shadow:0px 10px 25px -7px #000;padding:2px 0px 2px 0px;background-color:var(--orange);border-bottom-right-radius:2px;border-bottom-left-radius:2px;left:0px;width:100%;display:none}
+.ddcontent a {text-align:left !important;font-size:14px;background:#f7f7f7;text-align:center;padding:10px 3px 10px 4px}
+.ddcontent a:hover {background:#e9e9e9}
+.spin {width:21px;height:13px;background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-11px -41px;background-size:135px;display:inline-block;margin:1px 0px 0px 5px;transition:all .5s}
+.submenu {display:none !important}
+#MenuWrapper2 {display:none}
+#Logo {width:157px;float:left;height:60px;margin:11px 0px 0px 0px;text-align:center}
+#Logo img {height:56px}
+#dropdown {position:absolute;top:5px;left:10px;right:auto;width:35px;height:35px;z-index:10;display:none;font-size:10px;line-height:14px;text-align:center}
+#line1 {background-color:#555;height:3px;margin-top:10px;border-radius:3px}
+#line2 {background-color:#555;height:3px;margin-top:6px;border-radius:3px}
+#line3 {background-color:#555;height:3px;margin-top:6px;border-radius:3px}
+#CarSearch {height:10px;padding-top:22px;float:right;position:absolute;top:11px;right:8px;left:auto;display:none;font-size:8px;line-height:8px;text-align:center;background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-43px -37px;background-size:130px;background-repeat:no-repeat}
+#CarSearch img {height:20px;margin-bottom:1px}
+#CalcTitle {height:30px;text-align:center;padding:0px;position:absolute;right:5px;top:15px;z-index:2;color:#888}
+#Title {height:30px;text-align:center;padding:0px;position:absolute;left:5px;top:15px;z-index:2;color:#888}
+#WrapWrapper {background-color:#fff;transition:opacity 1s}
+#Wrapper {width:1200px;margin:0px auto 0px auto;position:relative;z-index:1;overflow:hidden}
+#getVehicle {color:#fff;position:absolute;left:15px;top:8px;text-align:center;font-size:11px}
+#getAll {color:#f0f0f0;position:absolute;right:10px;top:10px;padding:7px 20px;text-align:center;font-size:14px;display:block}
+#getAll img {width:30px}
+#Vehicle {text-align:center;position:absolute;top:45px;width:100%;z-index:2;border-radius:2px;background-color:#333}
+#Vehicle select {height:30px;font-size:16px;border:none;width:150px;background-color:#fff;margin:10px 0px 10px 0px}
+#Vehicle a {color:#f0f0f0;font-size:14px;display:inline-block;padding:10px;border-radius:2px;margin-top:7px}
+#Vehicle div {display:inline-block;vertical-align:top}
+#Vehicle h2 {font-size:16px}
+#choice {margin:0px 7px 0px 40px;display:inline-block;vertical-align:top}
+#choice div {display:inline-block;vertical-align:top}
+#choice a:hover {background-color:#404750 !important}
+#choice h2 {font-size:14px}
+#searchchoice {width:740px;margin:0px;float:right;text-align:center}
+#searchchoice div {display:inline-block;vertical-align:top;margin-left:5px}
+#make {width:150px;color:#999}
+#year {width:150px;color:#999}
+#model {width:150px;color:#999}
+#submodel {width:150px;color:#999}
+#bv {background-color:#404750}
+#diameter {width:400px !important}
+#frontsize select {width:70px}
+#rearsize {margin-left:5px}
+#rearsize select {width:70px}
+#firstsize {padding:5px;color:red;text-align:center;margin-top:4px}
+#showrear {width:auto;color:#999 !important;font-size:12px !important}
+#showrear:hover {color:#fff !important}
+#getLink {background-color:var(--orange)}
+.selectdiv {height:50px;color:#999}
+.selectdiv div {padding-top:15px}
+#Xout {width:40px !important;height:40px;position:absolute;left:0px;top:5px}
+#Xout img {width:40px}
+#Xout img:hover {cursor:pointer}
+#getpattern {display:none !important}
+#Heading {margin-top:120px;text-align:center;height:100px} 
+.hbig {font-size:26px;color:#435a70;font-weight:bold}
+.hsmall {max-width:800px;margin:0px auto 0px auto;padding:10px 20px 10px 20px;font-size:16px;color:#666}
+.psmall {padding:10px;text-align:justify}
+#TopWrap {margin-top:115px}
+#Content {float:right;width:800px;margin-top:0px}
+#text {clear:both}
+.headerad {width:728px;margin:30px auto 30px auto;overflow:hidden}
+.floatad {width:728px;margin:20px auto 0px auto;overflow:hidden}
+.contentad {width:728px;margin:30px 0px 50px 0px;clear:both;overflow:hidden}
+.tiresizestopad {width:728px;margin:20px auto 0px auto;overflow:hidden}
+.topadlimiter {width:728px;height:90px}
+.adlimiter {height:90px}
+#CreditWrapper {min-height:27px;padding:10px 0px 10px 0px;margin:40px 0px 0px 0px;background-color:#333}
+#Credit {max-width:1200px;margin:0 auto;color:#999;text-align:center}
+#Credit div {min-width:60px;padding:5px 20px 5px 20px;display:inline-block}
+#Credit a {color:#999}
+#CookieNotice {display:none;position:fixed;z-index:100;bottom:40px;left:0px;height:50px;width:400px;padding:8px;background:#fff678;text-align:center;font-size:12px !important;transition:transform .5s}
+#CookieNotice div {position:absolute;top:-25px;right:5px;background:#fff;box-shadow:0px 0px 1px 1px #999;color:green;font-weight:bold;padding:8px}
+#CookieNotice div:hover {cursor:pointer}
+#CookieNotice a {text-decoration:underline}
+#contact {margin-top:20px;text-align:center;font-size:16px}
+#contact span {font-size:24px}
+.treadimg {float:left;margin-right:15px}
+#goTop {width:41px;height:41px;opacity:.5;position:fixed;bottom:5px;right:5px;z-index:50;background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-80px -6px;background-size:125px;display:none}
+
+/** Calculator Search Tabs **/
+
+#calctab {width:336px;height:420px;position:relative;float:left;margin:28px 0px 0px 0px;text-align:center;border-radius:2px;z-index:1;background-color:#e5e5e5}
+#calctab select {width:75px;height:30px;margin:0px 2px 10px 2px;font-size:16px;display:inline-block;border:1px solid #d0d0d0}
+#calctab h2 {font-size:16px;margin:0;padding:5px 0px 0px 0px;font-weight:normal}
+#calctab a {color:#000}
+#learnmore {position:absolute;bottom:20px;width:100%;text-align:center;font-size:11px;color:#999}
+#learnmore a {padding-left:5px;color:#5699d0;text-decoration:underline}
+#tab1 {width:169px;text-align:center;position:absolute;left:0px;top:-3px;height:30px;background-color:#e5e5e5;border-left:1px solid #c0c0c0;border-right:1px solid #a0a0a0;border-top:1px solid #c0c0c0;border-bottom:1px solid #e5e5e5;z-index:1;border-top-right-radius:2px;border-top-left-radius:2px}
+#tab3 {width:176px;border-left:1px solid #888;position:absolute;right:0px;top:0px;background-color:#c0c0c0;text-align:center;height:27px;border-right:1px solid #c0c0c0;border-top:1px solid #c0c0c0;border-bottom:1px solid #888;z-index:0;border-top-right-radius:2px;border-top-left-radius:2px}
+#calctop {width:334px;height:370px;background-color:#e5e5e5;padding-top:20px;position:absolute;top:29px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;border:1px solid #d0d0d0;border-top:none}
+#calctop a {margin-right:10px;font-size:16px}
+#calctop2 {width:334px;height:370px;background-color:#e5e5e5;padding-top:20px;position:absolute;top:29px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;border:1px solid #d0d0d0;border-top:none}
+#calctop2 a {margin-right:10px;font-size:16px}
+#mconvert {position:absolute;bottom:30px;width:80px;right:48px;height:18px;font-size:12px;line-height:.9;border-radius:13px;border:1px solid #fff;padding:0px 7px}
+#mconvert:hover {cursor:pointer}
+#slid {position:absolute;left:0px;width:52px;top:0px;height:18px;border-radius:13px;background:rgba(0,0,0,.1)}
+#in {float:left;padding:4px 2px}
+#mm {float:right;padding:4px 2px}
+#calcinfo {position:absolute;left:50px;bottom:32px}
+#calcinfo a {color:var(--orange);text-decoration:underline;font-size:12px}
+#calcinfobox {position:fixed;top:100px;width:300px;height:440px;left:0px;right:0px;margin:0px auto;background:#fff;z-index:100;text-align:left;padding:10px;box-shadow:0px 0px 10px 3px #000;color:#333}
+#calcinfobox a {float:right}
+#calcinfobox p {font-size:14px}
+#calcinfobox span {color:#ff6c6c}
+.calctire {position:absolute;bottom:-4px;left:50%;margin-left:-110px;display:none}
+.calctire img {width:220px}
+.comph2 {font-size:18px !important;background-color:#c0c0c0;height:26px;padding-top:4px !important;border-radius:2px}
+.blue input {background-color:#529ad4;border:1px solid #666}
+.green input {background-color:#f3be4c;border:1px solid #888}
+#calcspecs {width:300px;margin:40px auto 0px auto}
+#calcspecs input[type=text] {padding-left:3px;margin:3px 0px 3px 0px;border-radius:2px;border:none}
+#convertspecs {margin-top:60px}
+#convertspecs input[type=text] {height:30px;margin:10px 3px 3px 3px;border-radius:2px;border:none;background-color:#c0c0c0;text-align:center;font-size:18px}
+#convertspecs span {font-size:16px}
+#CalcEquivs {margin:0px auto 0px auto;display:none}
+#CalcEquivs input[type=text] {padding:5px 0px 5px 0px;margin:0px 0px 10px 0px;border:none;border-radius:2px;text-align:center}
+.sep {height:10px}
+#Nrim {display:none}
+#comparecalc {width:300px;margin:10px auto 0px auto}
+#comparecalc input[type=text] {padding-left:3px;margin:3px 0px 3px 0px;border:none;border-radius:2px}
+.specCat {display:inline-block;vertical-align:top;width:90px;height:20px;margin-top:5px;text-align:left}
+.specCat2 {display:inline-block;vertical-align:top;width:150px;height:20px;margin-top:5px;text-align:left}
+.tire {display:inline-block;width:50px;height:20px;margin-right:3px !important;background-color:#c0c0c0;border-radius:2px;vertical-align:top}
+.tire1 {display:inline-block;width:50px;height:20px;margin-right:3px !important;background-color:#c0c0c0;border-radius:2px;vertical-align:top;opacity:.9}
+.tire2 {display:inline-block;width:50px;height:20px;background-color:#f3be4c;border-top-right-radius:0px !important;border-bottom-right-radius:0px !important;vertical-align:top}
+.tire3 {display:inline-block;width:120px !important;height:23px;padding-top:5px;border:none;background-color:#c0c0c0;border-radius:2px;vertical-align:top}
+.diff {width:50px;height:20px;margin:3px 0px 0px 0px !important;display:inline-block;background-color:#f3d189;border-left:1px solid #888 !important;border-top-left-radius:0px !important;border-bottom-left-radius:0px !important;vertical-align:top}
+.nocolor {width:75px;height:20px;margin:5px 0px 0px 5px;display:inline-block;background-color:#e5e5e5;border-radius:2px;vertical-align:top;text-align:left}
+.getcalcs {width:150px;height:32px;padding-top:5px;margin:20px auto 25px auto;background-color:var(--orange);border-radius:2px;text-align:center;font-size:20px;line-height:26px;color:#f0f0f0}
+.getcalcs:hover {cursor:pointer}
+.boltcalc {border:1px solid #c0c0c0;margin-top:25px !important}
+.boltcalc select {width:90% !important;margin:10px !important;height:40px !important}
+.boltcalc h2 {font-size:20px !important}
+#BoltButton {margin-top:0px}
+#results {display:inline-block;vertical-align:top;width:300px;height:200px;margin:10px 10px 20px 10px;text-align:center;font-size:40px}
+#CalcWrap {position:relative;width:798px;min-height:421px;margin-top:25px;float:right;background-color:#e5e5e5;overflow:hidden;border-radius:2px;text-align:center;z-index:1;border:1px solid #d0d0d0}
+#ShowTires {height:20px;text-align:center;font-size:16px;padding:10px 0px 10px 0px} 
+#spin {width:21px;height:21px;background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-11px -38px;background-size:135px;display:none}
+#spin {-webkit-transition:all .5s;transition:all .5s}
+#spin2 {-webkit-transition:all .5s;transition:all .5s}
+#ShowAlternate {height:30px;text-align:center;font-size:16px;padding:10px 0px 10px 0px}
+#ShowCompAlternate {height:20px;text-align:center;font-size:16px;padding:10px 0px 10px 0px}
+#ShowSim {width:300px;height:20px;text-align:right;font-size:16px;padding:10px 10px 10px 0px;float:right}
+#ShowSim:hover {cursor:pointer}
+#ShowCompTires {height:20px;text-align:center;font-size:16px;padding:10px 0px 10px 0px}
+#ShowCompTires span {width:21px;height:21px;background-image:url('https://www.Arrowcentretyres.com/dir/404.html');background-position:-11px -39px;background-size:135px;display:none}
+.showcompt {width:400px !important;display:inline-block !important;text-align:left !important}
+#GearCalc {width:296px;padding:0px 10px 10px 10px;margin:20px auto 10px auto;background-color:#e5e5e5;border-radius:2px;font-size:16px;position:relative}
+#GearCalc h2 {text-align:center;font-size:16px}
+#GearCalc form {padding:20px}
+.actMPH input[type=text] {font-size:18px;border:none;background-color:#c0c0c0;height:30px;width:80px;text-align:center}
+.geartext p {margin:0;padding:15px 30px 25px 30px}
+.gearcalcs {margin:15px auto 15px auto;width:150px;height:32px;padding-top:5px;background-color:var(--orange);border-radius:2px;text-align:center;font-size:20px;line-height:26px;color:#f0f0f0}
+.gearcalcs:hover {cursor:pointer}
+.goplus {display:block;margin-left:35px;padding:5px;background-color:#f0f0f0;font-size:12px !important;border-radius:2px;color:#777 !important;width:255px;text-align:center}
+.goplus:hover {color:#000 !important}
+.gocomp {position:absolute;bottom:2px;right:6px;background-color:#e5e5e5;color:#999 !important}
+.share {position:absolute;bottom:5px;right:6px;display:none}
+.share a {display:block;float:left;margin:3px 3px 0px 0px;color:#435a70 !important;font-size:10px !important}
+.share span {color:#435a70;font-size:16px;background-color:#fff;padding:0px 4px 0px 4px;border-radius:2px}
+
+/** Suggested Tire Results **/
+#sugdisplay {position:absolute;top:45px;left:50%;background-color:#e5e5e5;height:315px;display:none;margin:0px 0px 0px -600px;width:1198px;overflow:hidden;border-radius:2px;border:1px solid #d0d0d0}
+#Dots {text-align:center;position:absolute;width:100%}
+.dot {margin:5px;background-color:#fff;width:12px;height:12px;display:inline-block;border-radius:6px;-webkit-transition:all .5s;transition:all .5s}
+.doton {margin:5px;background-color:var(--orange);width:12px;height:12px;display:inline-block;border-radius:6px;-webkit-transition:all .5s;transition:all .5s}
+#sugdisplaywrap {height:262px;position:relative;max-width:940px;margin:25px auto 0px auto;overflow-x:scroll;overflow-y:hidden;-webkit-overflow-scrolling: touch}
+#scroll {height:220px;margin-top:15px;left:0px;top:0px;width:auto;position:relative;-webkit-transition:all .5s ease-out;transition:all .5s ease-out}
+#slideLeft {position:absolute;width:50px;height:50px;border-radius:30px;left:5px;top:160px}
+#slideLeft:hover {cursor:pointer;background-color:#f0f0f0}
+#slideLeft img {width:40px;margin:5px 0px 0px 3px}
+#slideRight {position:absolute;width:50px;height:50px;border-radius:30px;right:5px;top:160px}
+#slideRight:hover {cursor:pointer;background-color:#f0f0f0}
+#slideRight img {width:40px;margin:5px 0px 0px 8px}
+#available2 {text-align:center;padding:10px;background-color:#333;border-radius:2px;height:29px}
+#tiresize {padding-right:30px;color:#fff;font-size:18px}
+.tiresfound {display:none}
+.notires {text-align:center;font-size:20px;padding:90px 10px 0px 10px;color:#999}
+.notires span {font-size:28px;color:#435a70}
+.typefilter {width:305px;height:30px;font-size:16px;border-radius:2px;border:1px solid #c0c0c0;color:#333}
+.topfilter {color:#f0f0f0;background:var(--orange);padding:7px 15px;border-radius:2px;width:274px;margin:0px 0px 0px 5px;display:inline-block;font-size:14px}
+#alertwrap {text-align:center;position:absolute;top:50px;width:100%;z-index:1}
+#typealert {padding:2px;font-size:14px;color:#fff;min-width:250px;margin:0px auto 0px auto;background-color:#4388be}
+.red {background-color:#f94141 !important}
+.sugs {display:inline-block;background-color:#fff;margin:10px 5px 5px 5px;position:relative;width:164px;vertical-align:top;height:200px;clear:both;border:1px solid #fff;border-radius:2px;box-shadow:0px 1px 5px -1px #000;text-align:center}
+.sugex {width:175px;padding-top:55px;vertical-align:top;color:#333;font-size:18px;overflow:hidden;display:inline-block;text-align:center;line-height:1.5}
+.sugex a {color:var(--orange);text-decoration:underline}
+.displaymanu {width:165px;height:15px;margin:0px auto 0px auto;position:absolute;top:64px}
+.displaymanu img {width:90px}
+.displayimage {background-color:#fff;text-align:center;height:85px;overflow:hidden;box-shadow:0px 0px 2px #000;margin-top:-25px;display:inline-block;border-radius:2px;width:130px}
+.displayimage img {width:150px;margin-left:-10px}
+.displayinfo {height:62px;overflow:hidden;color:#333;font-size:12px;text-align:center;line-height:1;margin-top:20px}
+.displayinfo span {font-size:13px;font-weight:bold;color:#333}
+.price {font-size:11px;position:absolute;bottom:40px;color:#a0a0a0;width:100%;background-color:#fff}
+.price span {color:green;font-size:18px;padding-top:2px;display:block;font-weight:normal}
+.sugtiretype {position:absolute;top:25px;padding:5px 5px 5px 3px;height:12px;left:-1px;font-size:11px;font-weight:bold;background-color:#ffc75e;color:#000;text-align:center;z-index:1}
+.sugtiretype::after {content:"";position:absolute;border-top:11px solid #ffc251;border-bottom:11px solid #ffc251;border-right:10px solid transparent;right:-10px;top:0px}
+.sugtype {position:absolute;background:#f0f0f0;bottom:140px;right:17px;width:55px;text-align:center;font-size:12px;color:red;font-weight:bold}
+.top {top:55px}
+.tireflag {position:absolute;top:300px;padding:10px;height:12px;left:-60px;font-size:11px;font-weight:bold;background-color:#ffc75e;color:#000;text-align:center;z-index:1}
+.tireflag::after {content:"";position:absolute;border-top:16px solid #ffc251;border-bottom:16px solid #ffc251;border-right:10px solid transparent;right:-10px;top:0px}
+.compprice {position:absolute;top:97px;left:0px;background-color:#fff;color:var(--orange);width:100%;height:16px;padding-top:3px;text-align:center;font-size:12px}
+.sizecompprice {position:absolute;top:120px;left:0px;width:100%;background-color:rgba(32,131,212,.5);color:#fff;height:16px;padding-top:2px;text-align:center;font-size:12px}
+.viewspecs {position:absolute;width:140px;left:50%;margin-left:-70px;bottom:5px;height:20px;padding-top:6px;font-size:13px;background-color:var(--orange);;color:#f0f0f0;border-radius:2px}
+.viewspecs:hover {box-shadow:0px 0px 0px 1px #185a90}
+.subArrowtyres {display:none}
+
+/** Alternate Tire Size Results **/
+
+#resultstab {float:right;text-align:left;width:320px;-webkit-transition:all .5s;transition:all .5s}
+#SizeHead {display:none}
+#Lesson {margin:10px auto 30px auto;padding:50px 10px 50px 10px;border-radius:2px;text-align:center;width:250px;background-color:#fff;border-radius:2px}
+#DisplayTires1 {position:relative;right:0px;-moz-transition:-moz-transform .5s;-webkit-transition:-webkit-transform .5s;transition:transform .5s}
+#DisplayTires1 a {text-decoration:underline;cursor:inherit}
+#DisplayTires1 a:visited {color:#0059d8 !important}
+#SizeTable {width:100%;text-align:left;border-spacing:0px 5px;overflow:hidden;color:#222;background:#f0f0f0}
+#SizeTable th {padding:15px 0px 10px 7px;font-size:14px;color:#666;border-bottom:1px solid #e5e5e5}
+#SizeTable tr:hover {cursor:default}
+#SizeTable td {line-height:1;text-align:left;border-bottom:1px solid #e5e5e5;padding:17px 5px 0px 5px;height:32px;vertical-align:top}
+#SizeTable td span {font-size:11px;margin:1px 10px 0px 0px;font-weight:normal}
+.greyspan {color:#a0a0a0}
+#SizeTable td:nth-child(1) {padding-left:5px}
+#SizeTable td:nth-child(1):hover {cursor:pointer}
+#SizeTable td:nth-child(3) {padding-left:5px;font-weight:bold}
+#SizeTable td:nth-child(4) {border-left:1px solid #e5e5e5;padding-right:0px;font-weight:bold}
+#SizeTable td:nth-child(2) {border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;background-color:#edf7ff}
+.SizeLink {color:#0059d8;text-decoration:underline}
+.dia {background-color:#fff}
+.diaon {background-color:#d9f9c8 !important}
+.diaon td:nth-child(2) {background-color:#d9f9c8 !important}
+.diaover {background-color:#edf7ff}
+.diaover3 {background-color:#edf7ff}
+.diaunder {background-color:#edf7ff !important}
+#MoreSizes {text-decoration:underline;cursor:pointer;margin:5px;text-align:center}
+.dontshow {display:none}
+.show {display:table-row}
+#gotosize {display:inline-block;margin-top:5px;padding:0px 15px 0px 15px;font-size:15px}
+#SizeChange {text-align:center;margin:20px 0px 10px 0px}
+#SizeChange div {display:inline-block}
+#SizeChange select {height:30px;font-size:16px;width:280px;margin:0px auto 0px auto;border-radius:2px;border:1px solid #999}
+#byD {position:absolute;bottom:10px;left:47px}
+#byD select {height:30px;font-size:16px;width:280px;border-radius:2px;border:1px solid #999}
+
+/** Calculator Visualizer **/
+
+#CalcVisualizer {float:left;width:375px;text-align:center;font-size:12px;position:relative}
+#CarCalcVisualizer {float:left;width:350px;text-align:center;font-size:12px;position:relative;height:220px}
+#CalcViewer {padding-top:30px;clear:both;height:225px}
+#CarCalcViewer {padding-top:30px;clear:both}
+.tirewrap {position:relative;display:inline-block}
+#calccomp1 {display:inline-block;vertical-align:top;position:relative;margin-bottom:50px}
+#calccomp2 {display:inline-block;vertical-align:top;position:relative;margin-bottom:50px;padding:0px 0px 0px 30px}
+#c {width:185px;height:185px;overflow:hidden;position:relative;display:inline-block;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#c img {width:100%;height:100%}
+#t {width:185px;height:185px;position:absolute;left:0px;top:0px;z-index:1;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s;border-radius:93px;overflow:hidden}
+#w {width:185px;height:185px;position:absolute;left:0px;top:0px;-webkit-transition:width 1s,height 1s,top 1s,left 1s;transition:width 1s,height 1s,top 1s,left 1s,transform .5s}
+#a {width:185px;height:185px;position:absolute;left:0px;top:0px;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s;z-index:2;border-radius:100%}
+#tc {width:63px;height:185px;position:relative;display:inline-block;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#tc img {width:100%;height:100%}
+#ttwidth {border:1px solid #a0a0a0;border-top:none;position:absolute;bottom:-15px;height:12px;width:98%;text-align:center;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#viswidth {margin-top:6px;padding:0px 5px 0px 5px;background-color:#e5e5e5;display:inline-block}
+#ttheight {border:1px solid #a0a0a0;border-right:none;position:absolute;left:-20px;top:0px;height:97%;width:15px;text-align:center;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#visheight {padding:5px 0px 8px 0px;background-color:#e5e5e5;height:10px;display:inline-block;margin:80px 0px 0px -12px;-webkit-transition:margin 1s;transition:margin 1s}
+#tside {border:1px solid #a0a0a0;border-left:none;position:absolute;right:10px;bottom:2px;height:50px;width:80px;text-align:right;z-index:2;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#visside {padding:2px 0px 5px 3px;background-color:#e5e5e5;height:10px;display:inline-block;margin:25px -12px 0px 0px;-webkit-transition:margin 1s;transition:margin 1s}
+#twheel {border:1px solid #a0a0a0;border-bottom:none;position:absolute;right:50px;top:-15px;height:100px;width:85px;text-align:center;z-index:2;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s,right 1s}
+#viswheel {padding:0px 5px 0px 5px;background-color:#e5e5e5;width:20px;margin:-15px auto 0px auto}
+#visArrowtyres {position:absolute;left:0px;bottom:5px;-webkit-transform:rotate(43deg);transform:rotate(43deg)}
+#visrevs {position:absolute;bottom:-20px;width:100%;text-align:center}
+
+/** Comparison Visualizer **/
+
+#CompVisualizer {width:100%;text-align:center;font-size:12px;display:none}
+.compvis {display:block !important}
+#comparespeed {margin:20px 0px 20px 0px;display:inline-block;text-align:center}
+#comparespeed input {display:inline-block;border:none;background-color:#f3be4c;margin:3px 0px 0px 5px;border-radius:2px;height:20px;text-align:center;width:70px}
+#comparespeed span {font-size:11px}
+#comparespeed a {display:inline-block;width:70px;height:15px;margin:3px 0px 0px 5px;text-align:center;font-size:14px;color:#000}
+#reading {display:inline-block;vertical-align:top;margin-left:-9px}
+#actual {display:inline-block;vertical-align:top}
+#Viewer {padding-top:30px;clear:both;background-color:#f0f0f0}
+#comp1 {display:inline-block;vertical-align:top;position:relative;margin-bottom:50px}
+#comp2 {display:inline-block;vertical-align:top;position:relative;margin-bottom:50px;padding:0px 35px 0px 35px}
+#c1 {width:185px;height:185px;overflow:hidden;position:relative;display:inline-block;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#c1 img {width:100%;height:100%}
+#t1 {width:185px;height:185px;position:absolute;left:0px;top:0px;z-index:1;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s;border-radius:93px;overflow:hidden}
+#w1 {width:185px;height:185px;position:absolute;left:0px;top:0px;-webkit-transition:width 1s,height 1s,top 1s,left 1s;transition:width 1s,height 1s,top 1s,left 1s}
+#a1 {width:185px;height:185px;position:absolute;left:0px;top:0px;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s;z-index:2;border-radius:100%}
+#tc1 {width:63px;height:185px;position:relative;display:inline-block;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#tc1 img {width:100%;height:100%}
+#ttwidth1 {border:1px solid #a0a0a0;border-top:none;position:absolute;bottom:-15px;height:12px;width:98%;text-align:center;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#viswidth1 {margin-top:6px;padding:0px 5px 0px 5px;background-color:#f0f0f0;display:inline-block}
+#ttheight1 {border:1px solid #a0a0a0;border-right:none;position:absolute;left:-20px;top:0px;height:97%;width:15px;text-align:center;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#visheight1 {padding:5px 0px 8px 0px;background-color:#f0f0f0;height:10px;display:inline-block;margin:80px 0px 0px -12px;-webkit-transition:margin 1s;transition:margin 1s}
+#tside1 {border:1px solid #a0a0a0;border-left:none;position:absolute;right:10px;bottom:2px;height:50px;width:80px;text-align:right;z-index:2;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#visside1 {padding:2px 0px 5px 3px;background-color:#f0f0f0;height:10px;display:inline-block;margin:25px -12px 0px 0px;-webkit-transition:margin 1s;transition:margin 1s}
+#twheel1 {border:1px solid #a0a0a0;border-bottom:none;position:absolute;right:50px;top:-15px;height:100px;width:85px;text-align:center;z-index:2;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s,right 1s}
+#viswheel1 {padding:0px 5px 0px 5px;background-color:#f0f0f0;width:20px;margin:-15px auto 0px auto}
+#visArrowtyres1 {position:absolute;left:0px;bottom:5px;-webkit-transform:rotate(43deg);transform:rotate(43deg)}
+#visrevs1 {position:absolute;bottom:-20px;width:100%;text-align:center}
+#c2 {width:185px;height:185px;overflow:hidden;display:inline-block;position:relative;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#c2 img {width:100%;height:100%}
+#t2 {width:185px;height:185px;position:absolute;left:0px;top:0px;z-index:1;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s;border-radius:93px;overflow:hidden}
+#w2 {width:185px;height:185px;position:absolute;left:0px;top:0px;-webkit-transition:width 1s,height 1s,top 1s,left 1s;transition:width 1s,height 1s,top 1s,left 1s}
+#a2 {width:185px;height:185px;position:absolute;left:0px;top:0px;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s;z-index:2;border-radius:100%}
+#tc2 {width:63px;height:185px;overflow:hidden;position:relative;display:inline-block;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#tc2 img {width:100%;height:100%}
+#ttwidth2 {border:1px solid #f1a400;border-top:none;position:absolute;bottom:-15px;height:12px;width:98%;text-align:center;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#viswidth2 {margin-top:6px;padding:0px 5px 0px 5px;background-color:#f0f0f0;display:inline-block}
+#ttheight2 {border:1px solid #f1a400;border-left:none;position:absolute;right:-20px;top:0px;height:98%;width:15px;text-align:center;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#visheight2 {padding:5px 0px 8px 3px;background-color:#f0f0f0;height:10px;display:inline-block;margin:80px -12px 0px 0px;-webkit-transition:margin 1s;transition:margin 1s}
+#tside2 {border:1px solid #f1a400;border-right:none;position:absolute;left:10px;bottom:2px;height:50px;width:80px;text-align:left;z-index:2;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#visside2 {padding:2px 3px 5px 0px;background-color:#f0f0f0;height:10px;display:inline-block;margin:25px 0px 0px -8px;-webkit-transition:margin 1s;transition:margin 1s}
+#twheel2 {border:1px solid #f1a400;border-bottom:none;position:absolute;right:50px;top:-15px;height:100px;width:85px;text-align:center;z-index:2;-webkit-transition:width 1s,height 1s;transition:width 1s,height 1s}
+#viswheel2 {padding:0px 5px 0px 5px;background-color:#f0f0f0;width:20px;margin:-15px auto 0px auto}
+#visArrowtyres2 {position:absolute;right:0px;bottom:5px;-webkit-transform:rotate(-43deg);transform:rotate(-43deg)}
+#visrevs2 {position:absolute;bottom:-20px;width:100%;text-align:center}
+#trywheelcalc {padding:10px;font-size:14px;color:var(--orange);text-align:center}
+#trywheelcalc a {display:inline-block;padding:5px 30px}
+#trysparetire {font-size:15px}
+#trysparetire2 {position:absolute;bottom:30px;right:20px;display:none}
+#trysparetire2 a {color:var(--orange);font-size:12px;text-decoration:underline}
+#trypresscalc {font-size:15px}
+#trypresscalc2 {position:absolute;bottom:30px;left:20px;display:none}
+#trypresscalc2 a {color:var(--orange);font-size:12px;text-decoration:underline}
+
+/** Tire Size Tabs **/
+#tabwrapper {margin-top:20px}
+#tabwrapper h2 {text-align:center;margin-bottom:10px}
+#tabwrapper h3 {padding:5px}
+#tabwrapper h4 {color:#b0b0b0}
+#tabContainer {padding:6px;background-color:var(--blue);border-radius:2px}
+.tabs {font-weight:bold;margin-top:3px}
+.tabs > ul {margin:0;padding:0}
+.tabs > ul > li {list-style:none;min-width:20px;display:inline-block;vertical-align:top;margin:0px;padding:3px 5px 3px 5px;color:#FFF;font-size:12px;border-top-left-radius:2px;border-top-right-radius:2px;background:var(--orange)}
+.tabs > ul > li:hover {background:#FFFFFF;cursor:pointer;color:#000}
+.tabs > ul > li.tabActiveHeader {background:#FFFFFF;cursor:pointer;color:#000}
+.tabscontent {text-align:center;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;padding:10px 10px 25px 10px;background:#fff;color:#000}
+.tabscontent a {font-size:18px;line-height:1.5}
+.tabscontent a:hover {text-decoration:underline}
+.tabscontent a:visited {color:#666}
+.tabscontent h3 {background-color:#e5e5e5;text-align:center}
+.tabpage div {display:inline-block;vertical-align:top;text-align:left;padding:0px 15px 0px 15px;width:215px;font-size:16px;line-height:1.5}
+.tabpage div a {text-decoration:underline}
+
+#tabwrapper2 {margin-top:20px}
+#tabwrapper2 h2 {text-align:center;margin-bottom:10px}
+#tabwrapper2 h3 {padding:5px}
+#tabwrapper2 h4 {color:#b0b0b0}
+#tabContainer2 {padding:6px;background-color:var(--blue);border-radius:2px}
+.tabs2 {font-weight:bold;margin-top:3px}
+.tabs2 > ul {margin:0;padding:0}
+.tabs2 > ul > li {list-style:none;min-width:20px;display:inline-block;vertical-align:top;margin:0px;padding:3px 4px 3px 5px;color:#FFF;font-size:12px;border-top-left-radius:2px;border-top-right-radius:2px;background:var(--orange)}
+.tabs2 > ul > li:hover {background:#FFFFFF;cursor:pointer;color:#000}
+.tabs2 > ul > li.tabActiveHeader2 {background:#FFFFFF;cursor:pointer;color:#000}
+.tabscontent2 {text-align:center;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;padding:10px 10px 25px 10px;background:#fff;color:#000}
+.tabscontent2 a {font-size:18px;line-height:1.5}
+.tabscontent2 a:hover {text-decoration:underline}
+.tabscontent2 a:visited {color:#666}
+.tabscontent2 h3 {background-color:#e5e5e5;text-align:center}
+.tabpage2 div {display:inline-block;vertical-align:top;text-align:left;margin:0px 15px 0px 15px;width:215px;font-size:16px;line-height:1.5}
+.tabpage2 div a {text-decoration:underline}
+
+/** Car and Size Tire-Type Nav, Calcs, and Tire Divs **/
+
+#sizealert {padding:10px;margin-top:115px;text-align:center;background-color:#d0d0d0;border-top-right-radius:2px;border-top-left-radius:2px}
+#carsizealert {padding:20px;margin-top:20px;text-align:center;background-color:#e5e5e5;font-size:16px}
+#carsizealert div {display:inline-block;vertical-align:top;margin:10px 5px 5px 5px;padding:5px 15px 5px 15px;font-size:16px;border-radius:2px;line-height:1.5;border:4px solid #333;height:48px;background-color:#333;color:#f0f0f0}
+#carsizealert div:hover {border:4px solid var(--orange) !important;cursor:pointer}
+.factorysizes {display:block;font-size:16px;color:#f0f0f0}
+.factorysizes div {display:inline-block}
+.factorysizes span {font-size:12px;color:#c0c0c0}
+.sparelink {padding:20px;margin:20px 0px;font-size:16px;background:#f0f0f0;text-align:center;line-height:1.5}
+.sparesize {color:#999}
+.space {margin-top:12px}
+.sizeon {border:4px solid var(--orange) !important;background:var(--orange) !important}
+.sizeoff {border:4px solid #333 !important}
+.sizeoff:hover {border:4px solid #333 !important}
+.sizespec {color:#222}
+.sizespec span {font-size:10px;font-weight:normal}
+.sizespec span a {padding-right:10px;font-size:10px;background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-repeat:no-repeat;background-position:right 0px;background-size:7px}
+#closealt {float:right;margin:5px 5px 0px 0px;display:none}
+#ShowSizeTires {position:absolute;top:5px;left:8px;font-size:14px}
+#upsizewrap {margin:0px auto 0px auto;min-height:220px;background-color:#e5e5e5;border-bottom-right-radius:2px;border-bottom-left-radius:2px;position:relative;padding-bottom:10px}
+#upsizewrap input[type=button] {width:120px;height:50px;margin:10px auto 10px auto;font-size:16px;display:block;clear:both}
+#upsizewrap select {margin-top:10px;font-size:16px;height:30px;width:170px}
+#carupsizewrap {margin:115px auto 0px auto;min-height:220px;background-color:#e5e5e5;border-radius:2px;position:relative;padding-bottom:10px}
+#carupsizewrap input[type=button] {width:120px;height:50px;margin:10px auto 10px auto;font-size:16px;display:block;clear:both}
+#carupsizewrap select {margin-top:10px;font-size:16px;height:30px;width:170px}
+#showVis {font-size:20px;padding-top:70px}
+#UpSizing {width:260px;display:inline-block;vertical-align:top;padding:20px 30px 0px 80px;line-height:1.5}
+#YourSizes {padding:20px 0px 0px 0px;display:inline-block;vertical-align:top}
+#YourSizes div {height:20px;padding:4px 0px 0px 0px}
+#YourSizes div a {font-size:14px;color:#000;border-radius:2px;padding:2px;display:block}
+#YourSizes div a:hover {background-color:#c0c0c0}
+.sizedesc {font-size:18px;padding:5px}
+#ChooseYourSize {display:inline-block;width:170px;text-align:center;padding-top:20px;margin-left:60px}
+#sizebut {background-color:var(--orange);display:block;margin-bottom:10px;padding:15px;border-radius:2px;color:#f0f0f0;font-size:16px;max-width:250px}
+#bydiameter {border:1px solid #999}
+#showupsize {display:none}
+#breadcrumb {position:absolute;bottom:5px;right:5px;font-size:16px}
+#breadcrumb a {text-decoration:underline}
+#breadcrumb a:hover {text-decoration:underline}
+#breadcrumb a:visited {color:var(--orange)}
+#breadcrumb2 {font-size:16px;text-align:right;margin:0px 0px -18px 0px}
+#breadcrumb2 a {text-decoration:underline}
+#breadcrumb2 a:visited {color:var(--orange)}
+.hide {display:none}
+#SizeCalcWrap {margin-top:10px}
+#SizeTabWrap {height:26px;display:none}
+#SizeTabWrap a {padding:5px 10px 5px 10px;margin-right:5px;border-top-left-radius:2px;border-top-right-radius:2px;color:#333;display:inline-block;vertical-align:top;min-width:40px;text-align:center;text-decoration:none}
+.numselected {background-color:#f0f0f0}
+.numunselected {background-color:#d0d0d0}
+#cartireresultstab {background-color:#f0f0f0;text-align:center;margin:0px 0px 20px 0px;padding-top:20px;border-radius:2px;border-top-left-radius:0px;display:none}
+#DisplayTires2 {width:75%;display:inline-block}
+#SizeFilter {background-color:var(--orange);padding:15px 0px 15px 0px;margin:20px 0px 0px 0px;text-align:center;color:#f0f0f0;display:block;font-size:16px;border-radius:2px}
+#SizeFilter:hover {cursor:pointer}
+#ManuBar {margin:0px;text-align:center;display:none}
+.manubar {height:30px;width:363px;font-size:16px;background-color:#f0f0f0;border-top:1px solid #fff;border-right:1px solid #fff;padding-top:12px;display:inline-block;color:#000}
+.manubar:hover {background-color:#e5e5e5}
+.manubarselected {background-color:#333;color:#fff;height:25px;width:363px;font-size:14px;border-top:1px solid #fff;border-right:1px solid #fff;padding-top:7px;display:inline-block}
+.manutabselected {text-align:center}
+.manutabunselected {display:none;clear:both}
+.manubar:nth-of-type(odd) {border-right:1px solid #e5e5e5}
+#manu14 {display:none}
+#manu31 {display:none}
+#manulogo {max-width:1186px;float:right;margin-bottom:20px}
+#manulogo img {width:100%}
+#wheelmanulogo {margin-top:20px;text-align:center}
+
+.greyheader {min-height:23px;padding:7px 5px 7px 5px;margin:10px 0px 10px 0px;background-color:#e5e5e5;text-align:center}
+.greyheader span {font-size:18px;color:#000}
+.simtires {display:block;width:340px;text-align:center;background-color:var(--orange);color:#f0f0f0;font-size:14px;padding:10px 5px 10px 5px;margin:20px auto;border-radius:2px}
+.branddivs {display:inline-block;vertical-align:top;width:23%;height:80px;margin:0px 1% 2% 1%;background-color:#fff;text-align:center;position:relative;box-shadow:0px 0px 0px 1px #e0e0e0;padding-top:20px;color:#999;border-radius:2px}
+.branddivs:hover {box-shadow:0px 0px 1px #666}
+.manudivs {display:inline-block;vertical-align:top;min-height:250px;width:31.3%;margin:0px 1% 40px 1%;background-color:#fff;text-align:center;position:relative;padding-top:15px;font-weight:bold;color:#999;font-size:18px;box-shadow:0px 0px 0px 1px #f0f0f0}
+.manudivs a img {width:180px;height:180px}
+.manudivs span {font-size:14px;color:#999;font-weight:normal}
+.tiredivs3 {display:inline-block;vertical-align:top;min-height:320px;width:31.3%;padding:5px 0px 5px 0px;margin:0px 1% 40px 1%;background-color:#fff;position:relative;text-align:center;position:relative;box-shadow:0px 0px 0px 1px #f0f0f0}
+.tiredivs3 a {font-size:18px;text-align:center;display:inline-block;margin-top:5px;text-decoration:underline}
+.tiredivs3 a img {width:180px;height:180px}
+.tiredivs3 span {font-size:14px;color:#999;font-weight:normal}
+.nh {cursor:default !important}
+.td3 {width:150px;height:150px}
+.tirename {padding:0px 5px 0px 5px;font-weight:bold;color:#888;font-size:18px}
+.carsizeprice {font-size:11px;background-color:#fff;color:#333;min-height:19px;width:100%;padding:3px 0px 3px 0px;margin-bottom:5px}
+.carsizeprice span {font-size:16px;color:green}
+.sizeprice {font-size:12px;background-color:#f0f0f0;color:#333;min-height:21px;padding:2px 10px 0px 10px;position:absolute;bottom:0px;right:0px}
+.sizeprice span {font-size:18px;color:green}
+.tiretypes {margin:10px 0px 20px 20px;float:left;width:280px;font-size:16px}
+.tiretypes a {margin:10px;display:block}
+.tiretypes a:hover {text-decoration:underline}
+.tiretypes img {width:100px}
+.tiresizes {margin:10px .5% 0px .5%;display:inline-block;width:32.3%;line-height:30px;vertical-align:top;font-size:15px}
+.tiresizes a {text-decoration:underline;font-weight:bold}
+.tiresizesh2 {background-color:#e5e5e5;color:#111;padding-left:5px;border-bottom:1px solid #999;font-size:18px}
+.tiresizes h4 {color:#999}
+.productsugwrap {text-align:center}
+
+.cardivs {margin:20px 0px 0px 0px;font-size:16px}
+.cardivs h2 {background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-repeat:no-repeat;background-position:right 0px;display:inline;padding-right:15px;color:var(--orange)}
+.carh2 {display:block;background-color:#f0f0f0;text-align:center;padding:5px}
+.carh2 h2 {color:#999;font-size:18px}
+.yvehicle {font-size:20px;background-color:#f0f0f0;padding:5px;margin-top:20px;text-align:center}
+.cardivs span {min-height:30px;padding-top:7px;background-color:#333;text-align:center;color:#fff}
+.caryear {font-size:20px;color:#666;margin-top:5px;padding:5px;text-align:center;background-color:#f0f0f0}
+.carsubmodel {border-bottom:1px dashed #e0e0e0;clear:both;padding:5px 0px 5px 0px;color:#666}
+.carsize {line-height:1.5;min-width:130px}
+.carsizes {float:right;clear:both;font-size:12px;margin:5px 0px 8px 0px}
+.carsizes a {text-decoration:underline;font-size:16px}
+.carsizes2 {text-align:right;margin:5px 0px 5px 0px;font-size:12px;clear:both}
+.carsizes2 a {text-decoration:underline;font-size:16px}
+.nodec {float:none;text-align:right}
+.nodec a {color:#000;text-decoration:none}
+.nodec a:hover {color:#000;text-decoration:none}
+.dec {text-decoration:underline;font-size:18px}
+.carb {border-bottom:1px dashed #999}
+.carsubmodel {font-size:18px}
+.gotomodel {text-align:center;margin-bottom:20px}
+.gotomodel select {width:300px;height:30px;font-size:16px}
+
+/** Products **/
+
+#Tireimage {width:360px;float:left;margin:10px 0px 50px 0px;font-size:12px;text-align:center;position:relative}
+#Tireimage span {display:block;font-size:16px;font-weight:bold}
+#Tireimgwrap {min-height:300px}
+#Tireimgwrap img {width:300px}
+#Wheelimage {width:360px;float:left;margin:20px 0px 50px 0px;font-size:16px;text-align:center}
+#Wheelimage span {display:block;font-size:12px;color:#999}
+#Description {padding-bottom:5px;clear:both}
+#Description a {text-decoration:underline}
+#Description p {text-align:justify}
+.producttitle {float:right;width:320px;text-align:right;font-size:16px;color:#777;line-height:1.3;margin-top:-25px;padding-bottom:3px}
+.producttitle span {font-size:28px;color:#777}
+.producttitle a {text-decoration:underline}
+.tiretitle {text-align:right;font-size:16px;color:#999;margin-top:15px;line-height:1.3;padding-bottom:5px}
+.tiretitle span {font-size:28px;color:#777}
+.rv {font-size:13px;color:#777}
+#talktest {margin-top: 10px;color:var(--orange);border-radius:2px}
+#talktest span {font-size:15px;color:var(--orange)}
+#talktest span:hover {cursor:pointer}
+.color {border:1px solid var(--orange) !important}
+#talktest textarea {width:260px;height:100px}
+#talktest input[type=button] {float:right;margin-right:15px}
+.seealltires {background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-repeat:no-repeat;background-position:right 0px;padding-right:15px;font-size:16px;text-decoration:underline}
+.ava {font-size:17px;color:green;text-align:right;margin:10px 0px 0px 150px;line-height:.9;float:right;border:1px solid green;font-variant-caps: all-petite-caps;padding:10px 15px;background:#f5faf5}
+.ava span {font-size:13px;color:#888}
+.checkwrap {background:green;height:20px;width:20px;border-radius:10px;display:inline-block;vertical-align:top;margin-top:-2px;position:relative}
+.checkmark {width:10px;height:4px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg);display:inline-block;position:absolute;left:5px;top:6px}
+.featured {width:245px;float:right}
+.affspec {margin-bottom:20px;text-align:right;color:#777}
+.rec {float:left;padding:3px 10px;border-right:1px solid #999;text-align:right;color:#ff7800}
+.recimg {width:130px;float:right;margin-top:-14px;margin-right:-5px;text-align:center;position:relative}
+.recimg img {width:100%}
+.recimg span {font-size:10px;display:block;color:#777}
+.pro {text-align:right;color:#666;margin-top:20px;font-size:13px;float:right}
+.pro span {font-size:15px;font-weight:bold;color:#444}
+.shortdesc {color:green}
+.featprice {color:#888;font-size:12px;margin:20px 0px 40px 0px}
+.featprice span {font-size:30px;color:green;font-weight:normal;display:inline}
+.tbstrike {text-decoration:line-through}
+.st {text-decoration:line-through}
+.buyitnow {padding:10px 50px;width:100px;font-size:16px;background:var(--orange);color:#f0f0f0;text-align:center}
+.or {font-size:18px;margin:38px 70px 25px 0px}
+.warr {position:absolute;left:0px;color:#666;font-size:12px;padding:8px;border-radius:2px;background-color:#f0f0f0}
+.warr span {color:var(--orange);font-size:12px !important;font-weight:bold}
+.remold {color:red !important}
+.warranty1 {top:10px}
+.warranty2 {top:75px}
+.warranty3 {top:140px}
+.warranty4 {top:205px}
+.flag {border-top:17px solid #f0f0f0;border-bottom:18px solid #f0f0f0;border-right:15px solid transparent;position:absolute;right:-15px;width:0px;top:0px}
+.gentires {width:320px !important;clear:none !important;float:right !important}
+#reviews {margin:20px 0px 40px 0px;line-height:1.5;height:180px;overflow:hidden;position:relative}
+#reviews a {font-size:14px;text-decoration:underline;color:var(--orange)}
+.coverup {background:-webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));position:absolute;bottom:0px;height:80px;width:100%}
+.coverup a {position:absolute;bottom:0px;right:10px}
+.treview {margin-bottom:20px;border:1px solid #e0e0e0;padding:10px;background-color:#f0f0f0;border-radius:2px}
+.ratings {display:inline-block;width:300px;vertical-align:top}
+.comments {display:inline-block;vertical-align:top;margin-top:20px;width:280px}
+#showreviews {background-color:var(--orange);color:#f0f0f0 !important;width:315px;padding:10px;float:right;margin-top:-10px;display:block;font-size:16px;text-align:center;border-radius:2px;text-decoration:none !important}
+#showreviews2 {background-color:#e5e5e5;padding:10px;display:block;font-size:16px;text-align:center;border-radius:2px;margin:20px 0px 30px 0px;text-decoration:none !important}
+#ridecontainer {width:360px;text-align:center;max-height:65px;overflow:hidden;margin:20px 0px 5px 0px}
+#morerides {padding:2px;clear:both;font-size:12px;color:var(--orange)}
+#morerides:hover {cursor:pointer}
+.rideback {text-align:right !important;background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-size:100% 64px;background-repeat:no-repeat}
+.rideback2 {text-align:right !important;background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-size:100% 64px;background-repeat:no-repeat}
+.ridethumb {display:inline-block;vertical-align:top;width:24%;height:64px;margin:1px .5% .5% .5%;box-shadow:0px 0px 0px 2px #fff;overflow:hidden}
+.ridethumb img {-webkit-transition:all .2s;transition: all .2s;width:100%}
+.ridethumb img:hover {width:110%}
+.yourthumb {background-color:#fff;max-width:119px;border:2px dashed var(--orange);color:var(--orange);font-size:12px;height:64px;box-sizing:border-box;text-align:center;width:24%}
+.yourthumb a {height:45px;padding-top:15px;display:block}
+.yourthumb:hover {background:#f5f5f5}
+.yourrideback {margin:0px;width:25%;height:64px;box-shadow:-2px 0px 5px 0px #000}
+.bigproductad {width:728px;margin:0px 0px 50px 0px;float:left;overflow:hidden}
+.bigproductad1 {width:336px;margin:0px 0px 50px 0px;float:right;overflow:hidden}
+.bigproductad2 {width:336px;margin:0px 0px 50px 12px;float:left;overflow:hidden}
+.bigprotop {margin-top:165px}
+.bigprotop2 {margin-top:85px}
+.bigprotop3 {margin-top:10px}
+.clicksize {margin:20px 0px -35px 45px;padding-left:85px;height:50px;clear:both;background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-repeat:no-repeat;font-size:16px;width:200px;display:none}
+#mobileprice {font-size:14px;margin-top:20px;background-color:#f0f0f0;height:70px;padding-top:7px;text-align:center;border-radius:2px;display:none}
+#mobileprice span {font-size:28px;color:green}
+#rebate {font-size:18px;font-weight:bold;margin:0px 0px 5px 0px;height:25px;padding-top:7px;text-align:center;color:#fd8c00}
+#mcompare {display:block;background-color:#f0f0f0;color:var(--orange);padding:13px 5px 5px 5px;text-align:center;height:28px;border-radius:2px;margin:25px auto 0px auto;border:2px dashed var(--orange);width:300px}
+#pcompare {text-align:right;color:#777;padding-bottom:2px;margin-bottom:5px;border-bottom:1px solid #999;clear:both}
+#pcompare h2 {font-size:26px}
+.notav {color:red !important}
+.ttypediv {margin:5px 0px 15px 0px;line-height:1.4;color:#999}
+.ttypediv a:hover {text-decoration:underline}
+#Specs {margin-top:20px;clear:both}
+#Specs h2 {margin-bottom:5px;font-size:16px;text-align:right;color:#888}
+
+.tablewrap {min-width:398px;display:inline-block}
+.loadspecs {width:100%;background-color:#fff;text-align:center;font-size:14px;border-radius:2px;margin:0px 0px 10px 0px;border:1px solid #e5e5e5}
+.loadspecs th {background-color:#e5e5e5;padding:9px 0px 9px 0px;font-size:12px}
+.loadspecs td:nth-child(1) {font-weight:bold;color:var(--orange)}
+.loadspecs td:nth-child(3) {font-weight:bold;color:var(--orange)}
+.loadspecs tr:nth-of-type(odd) {background-color:#f0f0f0}
+.loadspecs td {padding:9px 0px 9px 0px;font-size:14px}
+
+#btablespecs {width:100%;background-color:#fff;text-align:center;font-size:15px;border-radius:2px;margin-bottom:50px;position:relative}
+#btablespecs a {font-size:16px;text-decoration:underline}
+#btablespecs a:hover {text-decoration:underline}
+#btablespecs a:visited {color:var(--orange)}
+#btablespecs tr {border-bottom:1px solid #e5e5e5}
+#btablespecs th {background-color:#f0f0f0;padding:7px 0px;font-size:13px;font-variant-caps:all-small-caps;color:#008080;border-right:1px solid #d0d0d0}
+#btablespecs th:nth-child(11) {border:none}
+#btablespecs th:nth-child(12) {border:none}
+#btablespecs th:nth-child(13) {border:none}
+#btablespecs td {padding:9px 3px;line-height:1.4}
+#btablespecs td:nth-child(1) {text-align:right;padding-right:10px;max-width:90px}
+#btablespecs td:nth-child(12) {display:none}
+#btablespecs td:nth-child(13) {display:none}
+
+#tablespecs {width:100%;background-color:#fff;text-align:center;font-size:14px;border-radius:2px;margin-bottom:75px;position:relative;color:#222;border:5px solid #e5e5e5}
+#tablespecs tr {border-bottom:1px solid #e5e5e5}
+#tablespecs th {background-color:#f0f0f0;padding:7px 0px;font-size:13px;font-variant-caps: all-small-caps;color:#008080;border-right:1px solid #d9d9d9}
+#tablespecs th:nth-child(13) {border:none}
+#tablespecs th:nth-child(14) {border:none}
+#tablespecs th:nth-child(15) {border:none}
+#tablespecs td {padding:9px 3px;border-right:1px solid #e5e5e5}
+#tablespecs td:nth-child(1) {text-align:right;padding-right:10px;font-size:16px;max-width:100px}
+#tablespecs td:nth-child(13) {border:none}
+#tablespecs td:nth-child(14) {display:none}
+#tablespecs td:nth-child(15) {display:none}
+#tablespecs td a {text-decoration:underline}
+#Qp {display:none;position:absolute;z-index:10;top:300px;left:50%;margin-left:-130px;width:200px;background-color:#fff678;box-shadow:0px 0px 10px #000;font-size:16px;border-radius:2px}
+#Pq {display:none;position:absolute;z-index:10;top:200px;padding:0px;margin-left:-200px;left:50%;width:400px;box-shadow:0px 0px 25px 5px #000;border-radius:2px}
+.letters {width:100px}
+
+#wtablespecs {width:100%;;background-color:#fff;text-align:center;font-size:15px;border-radius:2px;margin-bottom:50px;position:relative}
+#wtablespecs a {font-size:16px;text-decoration:underline}
+#wtablespecs a:hover {text-decoration:underline}
+#wtablespecs a:visited {color:var(--orange)}
+#wtablespecs th {background-color:#e5e5e5;padding:9px 0px 9px 0px;font-size:11px}
+#wtablespecs tr {border-bottom:1px solid #e5e5e5}
+#wtablespecs td {padding:9px 0px 9px 0px}
+#wtablespecs td:nth-child(1) span {display:none}
+#wtablespecs td:nth-child(6) {display:none}
+#wtablespecs td:nth-child(7) {display:none}
+
+.sugwrap {text-align:center}
+.showspecs {text-decoration:none !important;color:#f0f0f0 !important;background-color:var(--orange);padding:8px;border-radius:2px}
+.wshowspecs {text-decoration:none !important;color:#000 !important;border:1px solid #999;background-color:#e5e5dd;padding:2px;border-radius:4px}
+#PriceWrap {margin:30px 0px 50px 0px;float:right;width:280px}
+.pricecheck {display:block;min-height:75px;position:relative;border-bottom:1px dotted #c0c0c0;clear:both;padding:5px 0px}
+.pricecheck:hover {cursor:default}
+.pricelogowrap {float:left;line-height:15px}
+.pricelogo {width:100px;margin-top:10px}
+.pricelogo img {width:100%}
+.shipping {padding-left:5px;font-size:12px;color:#000;text-align:left;font-weight:bold}
+.pricebuttonwrap {float:right;text-align:right;font-size:14px;color:#888;padding-top:3px;position:relative}
+.pricebuttonwrap a:visited {color:#000}
+.pricebuttonwrap span {color:#008080;font-size:18px;margin-left:5px;display:none}
+.pricebutton {display:inline-block;margin:2px 0px 5px 0px;width:100px;height:25px;border-radius:2px;background-color:#c2f3a0;text-align:center;font-size:13px;padding:7px 0px 0px 0px;line-height:1.5;color:#000;border:1px solid green}
+.pricebutton:hover {color:#000 !important;border:1px solid green;cursor:pointer}
+.ebay {margin-top:2px}
+.amazon {font-size:12px !important;color:#999 !important}
+.promo {position:absolute;background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-size:50px;width:50px;height:50px;top:0px}
+.impurl {position:absolute;visibility:hidden;border:none}
+.pre {color:#666}
+.affmore {text-decoration:underline;font-size:10px}
+.affmore:visited {color:var(--orange) !important}
+.os {margin-top:5px;font-size:10px}
+
+/** Sidebar **/
+
+#SideBar {width:338px;display:inline-block;margin:20px 0px 0px 0px;overflow:hidden}
+#sideleft {width:160px;float:left}
+#sideright {width:168px;float:right}
+.sidead {width:336px;margin:0px auto 20px auto;text-align:center;overflow:hidden;border:1px solid #ccc}
+.sideadtire {margin-bottom:38px;background-color:#fff;overflow:hidden}
+.sideadtire2 {margin-bottom:166px;background-color:#fff;overflow:hidden}
+.hidead {display:block}
+.sbtitles {font-size:16px;margin:0px;padding:8px 5px 8px 5px;background-color:#333;color:#f0f0f0;border-top-right-radius:2px;border-top-left-radius:2px;clear:both}
+.sidebox {margin-bottom:20px}
+.sidebox a {color:#333;display:inline-block;vertical-align:top;width:163px;background-color:#f0f0f0;min-height:22px;padding:10px 0px 6px 5px;font-size:14px;margin-top:1px;box-shadow:0px 0px 0px 1px #fff}
+.sidebox a:hover {background-color:#e5e5e5}
+
+#manulogos {min-height:450px;float:left;margin-top:1px;margin-bottom:1px}
+.BFGoodrich {background-position:-10px 0px}.Goodyear {background-position:-10px -511px}.Nitto {background-position:-10px -845px}.Cooper {background-position:-10px -112px}.Toyo {background-position:-10px -1001px}.Yokohama {background-position:-10px -1080px}.Kumho {background-position:-14px -632px}.Michelin {background-position:-3px -715px}.Bridgestone {background-position:-10px -34px}.Hankook {background-position:-10px -549px}.Maxxis {background-position:-10px -670px}.IntercoSuperSwamper {background-position:0px -390px}.ProComp {background-position:-10px -883px}.General {background-position:-10px -475px}.MickeyThompson {background-position:-5px -759px}.DickCepek {background-position:-25px -154px}.Firestone {background-position:-10px -350px}.Fierce {background-position:-10px -315px}.BF-Goodrich {background-position:-10px -237px}.Nexen {background-position:-15px -805px}.Pirelli {background-position:-10px -920px}.MICHELIN {background-position:-10px -197px}.Continental {background-position:-10px -70px}.Sumitomo {background-position:-7px -960px}.Uniroyal {background-position:-10px -1043px}.Fuzion {background-position:-10px -438px}.Hoosier {background-position:-12px -591px}.Avon {background-position:-10px -1120px}.Federal {background-position:-10px -278px}.Atturo {background-position:-10px -1158px}.Mastercraft {background-position:-10px -1196px}.Hercules {background-position:-13px -1236px}
+.manubutton {background-image:url(https://www.Arrowcentretyres.com/dir/404.html);background-repeat:no-repeat;width:153px;height:13px;text-align:right;box-shadow:0px 0px 0px 1px #e5e5e5;margin-left:1px;font-size:10px;padding:34px 5px 0px 0px;background-color:#fff;display:inline-block;color:#999}
+.manubutton:hover {cursor:pointer;color:#000}
+
+/** Mobile **/
+@media (max-width:767px) {
+body {min-width:320px;width:auto}
+h1 {padding-left:0px;font-size:20px}
+#Header {width:auto;height:auto;border:none}
+#HeaderBack {position:fixed;min-width:0;width:100%;height:50px;box-shadow:0px 0px 5px 1px #000;z-index:2;border:none;margin-top:0px}
+#HeaderBack2 {display:none}
+#WrapWrapper {margin-top:0px;top:0px;position:relative;left:0px;box-shadow:0px 0px 5px 0px #000;-moz-transition:-moz-transform .3s;-webkit-transition:-webkit-transform .3s;transition:transform .3s}
+#MenuWrapper2 {height:35px;margin:0px;border-bottom:1px solid #aaa;border-top:1px solid #aaa;display:block;background-color:#dfdfdf;background:-webkit-linear-gradient(rgba(255,255,255,1),rgba(223,223,223,1));background:linear-gradient(rgba(255,255,255,1),rgba(220,220,220,1));-webkit-transition:margin .5s;transition:margin .5s}
+#MenuWrapper {float:none;margin:0px 0px 0px 0px;padding:0;position:absolute;width:300px;top:50px;transform:translate3d(-300px,0,0);-webkit-transform:translate3d(-300px,0,0);height:auto;border:none;-moz-transition:-moz-transform .3s;-webkit-transition:-webkit-transform .3s;transition:transform .3s}
+#MenuWrapper a:hover {background-color:transparent;border:none}
+#MenuWrapper a:visited {color:#999}
+.dd {width:300px;margin-left:0px;border-radius:0px;background:transparent;border:none;display:block;padding:0px;height:auto;border-bottom:1px dotted #444}
+.dd:hover {background:transparent;border-bottom:1px dotted #444}
+.dd a {color:#999;text-align:left;padding:15px 10px}
+.dd a:visited {color:#999 !important}
+.daro {border-top:10px solid #333;border-left:15px solid #444;border-right:15px solid #444}
+.ddcontent {position:static;background:#444;box-shadow:none}
+.ddcontent a {background:transparent;padding:15px 10px;font-size:15px}
+.submenu {display:inline-block !important}
+.spin {float:right}
+#selectMenu {margin:0px 0px 0px 0px;padding:0;height:35px;width:304px;margin:0px auto 0px auto;border-left:1px solid #fff;border-right:1px solid #fff}
+#selectMenu div {height:26px;margin:0;display:inline-block;min-width:150px;padding:9px 0px 0px 0px;text-align:center;border-right:1px solid #aaa;font-size:15px}
+#Logo {float:none;margin:0px auto 0px auto;width:100px;height:42px;background-color:transparent}
+#Logo img {margin:0px;height:35px;margin-top:8px}
+#dropdown {display:block}
+#signin {float:none;text-align:left;position:absolute;top:375px;margin-top:0px;background-color:#333;width:195px;height:auto;-webkit-transform:translate3d(-200px,0,0);transform:translate3d(-200px,0,0);-webkit-transition:-webkit-transform .3s;transition:transform .3s}
+#signin a {display:inline-block;margin:15px 5px 10px 10px;font-size:12px}
+#signin div {margin-right:40px}
+#signin div a {display:block;margin:15px 20px 15px 10px;font-weight:normal}
+.tutorial {top:7px;color:#c0c0c0;z-index:2;font-size:10px;line-height:1}
+.maintut {border:2px solid #c0c0c0;width:18px;height:18px;line-height:1.1;font-size:18px}
+.help {-webkit-transition:none;transition:none}
+.pgnotimg {display:none}
+.headerad {width:336px}
+.contentad {width:336px;margin-left:auto;margin-right:auto}
+.hidead {display:none}
+.tiresizestopad {width:auto;max-height:60px;margin:0px auto}
+.topadlimiter {width:auto;height:60px}
+.adlimiter {height:280px}
+.floatad {width:336px;height:auto;float:right;margin:10px 0px 10px 20px}
+.checkcomp {position:absolute;right:0px;top:0px;margin:0px 3px 0px 0px;display:none}
+.checkcomp a {margin-top:4px;text-decoration:underline;font-size:11px;margin-right:2px}
+#buyonline {position:fixed;z-index:10;top:38px;background:#dfdfdf;padding:9px 0px 9px 0px;width:100%;display:none;box-shadow:0px 3px 5px -3px #000}
+#buyonline a {display:block;font-size:14px;text-align:center}
+#CookieNotice {width:auto;bottom:0px}
+#CreditWrapper {min-height:150px}
+
+#Heading {margin:25px 5px 0px 5px;height:220px;position:relative}
+.calctire {display:block}
+.hbig {font-size:22px;color:#435a70}
+.hsmall {max-width:360px;padding:20px 10px 0px 10px;font-size:14px;color:#333}
+#CarSearch {display:block}
+#getVehicle {display:none}
+#getAll {top:auto;right:auto;bottom:-70px;left:50%;margin-left:-150px;width:300px;padding:10px 0px 10px 0px;background-color:var(--orange);color:#f0f0f0;border-radius:2px}
+#Vehicle {width:280px;min-height:225px;position:fixed;left:50%;margin-left:-142px;top:100px;display:none;padding:20px 0px 20px 0px}
+#Vehicle div {display:block}
+#Vehicle select {width:240px;height:40px;margin-top:0px}
+#Vehicle a {padding:0px}
+#Xout {top:-20px;right:-20px;left:auto;width:40px !important}
+#searchchoice {width:auto;float:none}
+#searchchoice div {margin:0px}
+#make {width:280px;height:50px}
+#year {width:280px;height:50px}
+#model {width:280px;height:50px}
+#submodel {width:280px;height:50px}
+#choice {margin:0px 20px 20px 20px}
+#choice a {padding:7px;display:block;margin-bottom:5px;text-align:left}
+#diameter {width:240px !important}
+#showrear {margin:20px}
+#rearsize {margin-top:20px !important}
+#getLink {padding:10px 30px 10px 30px !important;color:#f0f0f0 !important;float:none}
+#Wrapper {width:auto;max-width:767px;margin-top:0px}
+#SocialWrapper {width:280px;height:40px;margin:0px auto 0px auto;position:relative;top:20px}
+#CalcTitle {height:24px;position:relative;top:0px;left:0px;background-color:#435a70;padding:6px 10px 5px 10px;color:#fff}
+#Title {height:auto;min-height:25px;position:static;background-color:#435a70;padding:10px 10px 5px 10px;color:#fff;margin-bottom:20px}
+#CalcTitle h1 {font-size:18px}
+#Title h1 {font-size:16px}
+.social {float:left;margin:0px 15px 0px 15px}
+#TopWrap {margin-top:0px}
+#Content {float:none;width:auto;padding:10px}
+.geartext {background-color:#fff;margin-top:20px;padding:5px}
+.geartext p {padding:0px}
+.boltcalc {margin-top:0px !important}
+
+#choosetire {border-left:1px solid #aaa}
+#choosesize {border-left:1px solid #fff}
+#calctab {margin-top:0px;left:50%;margin-left:-168px;float:none;height:480px}
+#calctop {height:430px}
+#calctop2 {height:430px}
+#mconvert {bottom:80px}
+#calcinfo {bottom:82px}
+#CalcWrap {background-color:transparent;width:100%;margin-top:-5px;border-radius:0px;min-height:0px;float:none;border:none}
+#ShowTires {padding:10px 0px 10px 0px;margin:0px auto 0px auto;height:20px}
+#spin {display:inline-block;vertical-align:top}
+#ShowCompTires {padding:10px 0px 10px 0px;margin:0px auto 0px auto;height:20px}
+#ShowCompTires span {display:inline-block;vertical-align:top;display:none}
+#resultstab {float:none;margin:0 auto;overflow:hidden;padding-top:15px;width:auto;background-color:#e5e5e5}
+#DisplayTires1 {max-width:320px;margin:0 auto}
+#SizeTabWrap {max-width:320px;margin:0 auto}
+.diaover3 {background-color:#fff !important}
+#SizeChange {margin-bottom:60px}
+#SizeChange select {width:300px}
+#byD {left:50%;margin-left:-150px}
+#byD select {width:300px}
+#gotosize {background-size:10px}
+#carsizealert {margin-top:0px}
+#SizeFilter {margin-top:0px}
+#trypresscalc2 {display:block}
+#trysparetire2 {display:block}
+#trywheelcalc a {display:block}
+
+#CompVisualizer {width:100%;font-size:12px;float:none;margin-top:10px;background-color:#e5e5e5}
+#Viewer {background-color:#f0f0f0;width:100%}
+#CalcVisualizer {width:100%;font-size:12px;float:none;background-color:#e5e5e5;width:334px;border:1px solid #c0c0c0;border-radius:2px;margin:0px auto 25px auto;height:40px;overflow:hidden;border-top:2px groove #fff;border-top-right-radius:0px;border-top-left-radius:0px}
+#CarCalcVisualizer {width:250px}
+#CalcViewer {background-color:#e5e5e5;display:none;height:200px}
+#comparespeed {float:none;clear:both;padding:20px 0px 20px 0px;margin:0px}
+#comparespeed a {height:20px;display:block;font-size:16px;margin-right:5px}
+#comparespeed input {display:block;margin-left:5px}
+#reading {font-size:16px}
+#actual {margin-left:20px;font-size:16px}
+#ShowAlternate {background-color:#e5e5e5;background-size:40px}
+#ShowSim {display:none}
+.showcompt {width:auto !important;display:block;text-align:center !important}
+
+#DisplayTires2 {width:95%}
+#sugdisplay {position:relative;width:100%;top:0px;height:400px;left:0px;margin:0px 0px 65px 0px;border:none;overflow:visible}
+#sugdisplaywrap {margin-top:15px;padding-top:10px;height:340px;overflow-y:scroll;overflow-x:hidden;border-bottom:1px solid #c0c0c0;width:100%;background-color:#e5e5e5}
+#scroll {padding-left:10px;margin-top:5px;height:320px}
+#slideLeft {display:none}
+#slideRight {display:none}
+#available2 {padding:10px 0px 5px 0px;border:none;width:100%;background-color:transparent}
+#tiresize {display:none}
+#alertwrap {top:0px;position:relative}
+#typealert {width:auto}
+#Dots {display:none}
+.topfilter {margin:5px 0px 5px 0px;padding:10px 15px;background:var(--orange)}
+.typefilter {border:1px solid #a0a0a0;margin:5px 5px 0px 5px;height:40px}
+.tiresfound {display:none;margin:0px 5px 5px 5px;color:var(--orange);font-size:16px}
+.sugs {width:300px;margin:0px 0px 18px -150px;height:85px;display:block;box-shadow:0px 1px 2px 0px;left:160px;left:47vw}
+.displaymanu {top:3px;left:105px;width:90px}
+.displayimage {width:90px;float:left;height:75px;margin:-10px 0px 0px 5px}
+.displayimage img {width:90px;margin-left:0px}
+.displayinfo {color:#666;height:75px;padding:22px 3px 0px 10px;text-align:left;position:static;margin-top:0px}
+.displayinfo span {font-size:14px;font-weight:normal}
+.price {bottom:auto;top:38px;padding:2px 3px 0px 0px;width:190px}
+.price span {color:green;font-size:17px;display:inline;margin-left:10px}
+.sugtiretype {padding:4px 5px 5px 3px;height:11px;font-weight:normal}
+.sugtiretype::after {border-top:10px solid #ffc251;border-bottom:10px solid #ffc251;border-right:10px solid transparent}
+
+.tireflag {top:205px;left:-12px;height:12px;padding:5px 7px 5px 5px}
+.tireflag::after {border-top:11px solid #ffc251;border-bottom:11px solid #ffc251;border-right:8px solid transparent;right:-8px}
+.compprice {bottom:0px;top:auto;text-align:left;left:2px;width:95%}
+.viewspecs {bottom:-1px;right:-1px;left:auto;margin:0px;width:120px;height:15px;padding:3px 0px 0px 2px;border-radius:0px;border-top-left-radius:2px;border-bottom-right-radius:2px;font-size:12px;text-align:center}
+.sugex {width:100vw;height:90px;padding-top:0px;font-size:16px}
+.sugex a {width:100%}
+.leftArrowtyres {border-right:70px solid #e9e9e9;border-top:90px solid transparent;border-bottom:90px solid transparent;position:absolute;top:15px;left:35px}
+.subArrowtyres {border-top:20px solid #e5e5e5;border-bottom:20px solid #e5e5e5;border-left: 15px solid #d5d5d5;position:absolute;right:-25px;top:20px;display:block}
+
+/** Tire Size Tabs **/
+
+.tabs {padding-bottom:10px}
+.tabs > ul > li {margin:5px 5px 5px 0px;padding:5px;font-size:12px;border-radius:2px}
+.tabscontent {border-radius:2px}
+
+.tabs2 {padding-bottom:10px}
+.tabs2 > ul > li {margin:5px 5px 5px 0px;padding:5px;font-size:12px;border-radius:2px}
+.tabscontent2 {border-radius:2px}
+
+/** Car and Size Tire-Type Nav, Calcs, and Tire Divs **/
+
+#breadcrumb2 {margin:0px 0px 20px 0px}
+#sizealert {margin:10px 10px 0px 10px}
+#upsizewrap {margin:0px 10px 0px 10px;height:auto;display:none}
+#upsizewrap select {font-size:16px;width:280px}
+#upsizewrap input[type=button] {width:120px;font-size:14px;height:40px;margin-top:12px}
+#carupsizewrap {margin:0px 10px 0px 10px;height:auto;padding-top:10px;display:none}
+#carupsizewrap select {font-size:16px}
+#carupsizewrap input[type=button] {width:120px;font-size:14px;height:40px;margin-top:12px}
+#UpSizing {width:auto;padding:15px 25px 10px 25px;text-align:justify}
+#UpSizing h3 {font-size:18px}
+#YourSizes {float:right;padding:10px 40px 0px 10px}
+#YourSizes div {margin-top:10px}
+#YourSizes div a {font-size:16px;padding:5px;background-color:#d0d0d0}
+#YourSizes div a:hover {background-color:var(--orange)}
+#ChooseYourSize {margin:0px auto 10px auto;width:auto;display:block}
+#showupsize {background-color:#d0d0d0;text-align:center;padding:10px;margin:0px 10px 0px 10px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;display:block}
+#showupsize a {font-size:16px;display:block;background:#e5e5e5;border-radius:2px;padding:15px}
+#sizebut {margin:0px auto 10px auto;padding:10px;max-width:260px}
+.greyheader h2 {font-size:18px}
+.greyheader h3 {font-size:16px}
+.greyheader a span {font-size:16px}
+.manubar {width:49.7%}
+.manubar:nth-of-type(odd) {border-right:none}
+.manubarselected {width:49.7%}
+.tiredivs3 {width:48%}
+.tiredivs3 img {width:78px;height:24px}
+.tiredivs3 a img {width:150px;height:150px}
+.td3 {width:120px;height:120px}
+.cartiredivs {width:31.3%}
+.manudivs img {width:78px;height:24px}
+.branddivs {width:31.3%}
+.branddivs img {width:80px}
+.cardivs h2 {background-size:10px}
+.half {width:48%}
+.tiresizes {width:49%}
+#manulogo {width:767px;float:none;margin:0px}
+.manubutton {width:30%;box-shadow:none;margin:5px 1% 5px 1%;border:1px solid #e5e5e5;background-size:100px;height:13px;padding-top:25px;font-size:9px}
+.manubutton:nth-of-type(odd) {border-right:1px solid #e5e5e5}
+.BFGoodrich {background-position:50% 0px}.Goodyear {background-position:50% -392px}.Nitto {background-position:50% -648px}.Cooper {background-position:50% -85px}.Toyo {background-position:50% -767px}.Yokohama {background-position:50% -830px}.Kumho {background-position:50% -486px}.Michelin {background-position:50% -550px}.Bridgestone {background-position:50% -26px}.Hankook {background-position:50% -421px}.Maxxis {background-position:50% -513px}.IntercoSuperSwamper {background-position:50% -302px}.ProComp {background-position:50% -678px}.General {background-position:50% -364px}.MickeyThompson {background-position:50% -584px}.DickCepek {background-position:50% -120px}.Firestone {background-position:50% -268px}.Fierce {background-position:50% -240px}.BF-Goodrich {background-position:50% -183px}.Nexen {background-position:50% -622px}.Pirelli {background-position:50% -707px}.MICHELIN {background-position:50% -152px}.Continental {background-position:50% -54px}.Sumitomo {background-position:50% -739px}.Uniroyal {background-position:50% -802px}.Fuzion {background-position:50% -336px}.Hoosier {background-position:50% -454px}.Avon {background-position:50% -860px}.Federal {background-position:50% -212px}.Atturo {background-position:50% -890px}.Mastercraft {background-position:50% -918px}.Hercules {background-position:50% -949px}
+
+/** Products **/
+
+#Tireimage {margin:0px 0px 35px 0px;width:100%}
+#Tireimgwrap {min-height:260px}
+#Tireimgwrap img {width:260px}
+.ttypediv {margin-top:5px}
+#Wheelimage {margin:20px 0px 25px 0px;width:100%}
+#Description {width:auto;padding:5px;margin:60px 0px 40px 0px;float:none;clear:both}
+.gentires {width:auto !important;margin-top:0px !important}
+#ridecontainer {width:100%;text-align:center}
+.producttitle {margin-top:5px}
+.specm {margin-top:50px !important}
+#Specs h2 {text-align:center;padding:5px;font-size:12px;margin-bottom:0px;color:#999;background:#f0f0f0}
+.tablewrap {min-width:300px;display:block}
+.warr {left:-15px;padding:5px 10px 5px 15px}
+#reviews {clear:both;margin-bottom:50px}
+#showreviews {margin:0px 0px 30px 0px}
+#morerides {font-size:12px;margin-top:10px}
+.clicksize {background-size:60px;margin:20px 0px -20px 15%;padding-left:70px}
+.bigprotop {margin-top:0px}
+.bigprotop2 {margin-top:0px}
+.bigprotop3 {margin-top:0px}
+#Pq {top:250px;padding:0px;margin-left:-150px;left:50%;width:300px;box-shadow:0px 0px 15px 5px #000}
+
+#tablespecs {border:none;margin-bottom:10px}
+#tablespecs div {padding:8px 30px 8px 30px;max-width:500px;margin:0px auto 0px auto;clear:both;border-bottom:1px dashed #c0c0c0}
+#tablespecs tr {font-size:14px;background-color:#f0f0f0;border:none}
+#tablespecs tr:hover {background-color:#f0f0f0}
+#tablespecs th {display:none}
+#tablespecs td {width:auto !important;text-align:left !important;border:none;padding:15px 0px 15px 0px}
+#tablespecs td:not(:first-child) {display:none}
+#tablespecs td:nth-child(14) {display:block;float:right;margin:5px 10% 5px 0px}
+#tablespecs td:nth-child(1) {padding:0px;display:block;float:left;margin:5px 0px 10px 10%;max-width:none}
+
+#btablespecs {border:none}
+#btablespecs div {padding:8px 30px 8px 30px;max-width:500px;margin:0px auto 0px auto;clear:both;border-bottom:1px dashed #c0c0c0}
+#btablespecs tr {font-size:14px}
+#btablespecs tr:hover {background-color:#f0f0f0}
+#btablespecs th {display:none}
+#btablespecs td {width:auto !important;text-align:left !important;border:none}
+#btablespecs td:not(:first-child) {display:none}
+#btablespecs td:nth-child(12) {display:block;float:right;margin:15px 10% 10px 0px;}
+#btablespecs td:nth-child(1) {padding:0px;display:block;float:left;margin:5px 0px 5px 10%;max-width:none}
+
+#wtablespecs {border:none;margin-bottom:10px}
+#wtablespecs div {padding:8px 30px 8px 30px;max-width:500px;margin:0px auto 0px auto;clear:both;border-bottom:1px dashed #c0c0c0}
+#wtablespecs tr {font-size:14px}
+#wtablespecs tr:hover {background-color:#f0f0f0}
+#wtablespecs th {display:none}
+#wtablespecs td {width:auto !important;text-align:left !important;border:none}
+#wtablespecs td:not(:first-child) {display:none}
+#wtablespecs td:nth-child(6) {display:block;float:right;margin:10px 10% 10px 0px}
+#wtablespecs td:nth-child(1) {padding:0px;display:block;float:left;margin:17px 0px 0px 10%;max-width:none}
+#wtablespecs td:nth-child(1) span {font-size:10px;display:block}
+
+/** Sidebar **/
+
+#SideBar {width:auto;display:block;text-align:center;margin:20px 10px 0px 10px}
+#sideleft {width:auto;float:none}
+#sideright {width:auto;float:none;margin-top:20px}
+.sbtitles {margin-top:20px;border:none;border-radius:2px}
+.sidebox a {padding:11px 0px 8px 0px;width:49.6%;border-left:1px solid #fff}
+.sidebox a:nth-of-type(even) {border-right:1px solid #e5e5e5}
+#sidehelp {display:none}
+#sidecats {display:none}
+#sidesizes {display:none}
+#sidemore {display:none}
+#manulogos {display:none}
+}
+
+@media (max-width:686px) {
+.bigproductad {float:none;margin:0px auto 0px auto;width:336px;clear:both}
+.bigproductad1 {float:none;margin:0px auto 0px auto;width:336px;clear:both}
+.bigproductad2 {float:none;margin:0px auto 0px auto;width:336px;clear:both}
+#showreviews {width:auto;float:none;margin-bottom:20px;margin-top:20px}
+.carh2 h2 {font-size:14px}
+.tiretitle {text-align:left;margin-top:0px}
+.producttitle {text-align:left;margin:0px auto 20px auto;width:96%;float:none;max-width:480px}
+.ava {text-align:left;float:left;max-width:480px;margin:20px 0px 30px 0px;font-size:18px}
+#PriceWrap {max-width:480px;width:96%;float:none;margin:30px auto 60px auto;clear:both}
+#pcompare {text-align:left}
+.pricelogowrap {margin-left:0px}
+.pricebutton {width:120px;padding-top:7px;height:25px;margin-right:0px}
+.affspec {text-align:left}
+.featured {float:none;width:96%;margin:0 auto;max-width:480px;height:60px;position:relative}
+.pro {text-align:left;float:none;width:96%;max-width:480px;margin:40px auto}
+.rec {text-align:left;border-right:none;border-left:1px solid #999;margin-left:125px}
+.recimg {float:none;position:absolute;left:-10px}
+.buyitnow {font-size:18px;width:auto;display:block}
+.or {text-align:center;margin:30px 0px}
+}
+
+@media (max-width:479px) {
+#calctab {width:300px;margin-left:-150px}
+#tab1 {width:149px}
+#tab3 {width:156px}
+#calctop {width:298px}
+#calctop2 {width:298px}
+#GearCalc {width:280px;margin-top:0px}
+#GearCalc form {padding:10px}
+#mconvert {right:30px}
+#calcinfo {left:30px}
+#calcinfobox {position:absolute;top:400px}
+.treadimg {float:none;margin:0px auto 0px auto;display:block}
+.goplus {width:240px;margin-left:25px}
+#CalcVisualizer {width:298px}
+#CarCalcVisualizer {float:none;width:100%}
+#upsizewrap {text-align:center}
+#YourSizes {float:none;margin-bottom:20px;padding-right:10px;text-align:center;display:block}
+#showupsize {display:block}
+#closealt {display:block}
+.tiredivs3 {width:95%;padding-left:3%;text-align:left;min-height:90px;padding-bottom:30px;margin-bottom:15px;overflow:hidden;box-shadow:0px 0px 0px 1px #e5e5e5}
+.tiredivs3 a {width:100%;position:absolute;text-align:left;margin:0px 0px 0px 0px;left:0px;top:0px;padding-top:30px;max-height:100px}
+.tiredivs3 a img {margin:5px 0px 0px 0px;width:130px;height:130px}
+.tirename {float:left;padding-right:2px;margin:-27px 0px 0px 120px;line-height:1.5;color:#666}
+.tirename span {font-size:14px}
+.sizeprice {bottom:0px;right:0%;border-top-left-radius:2px;width:auto}
+.sizeprice span {font-size:22px}
+.cartiredivs {width:48%}
+.manudivs {width:48%;color:#888;min-height:220px}
+.manudivs a img {width:140px;height:140px}
+.branddivs {height:55px;padding:5px 0px 5px 0px;font-size:12px}
+.tiresizes {width:100%;margin:10px 0px 0px 0px}
+.tsizehide {display:none}
+.sidebox a {width:100%;border:none}
+.sidebox a:nth-of-type(even) {border-right:none}
+.manubar {width:100%;border-left:none}
+.manubarselected {width:100%;border-left:none}
+#Tireimage {margin-left:0px;float:none}
+#Wheelimage {margin-left:0px}
+#carsizealert div {width:200px;display:block;height:auto;padding:5px;margin:10px auto 5px auto}
+.carsize {position:relative !important;margin-left:125px !important;z-index:2;display:inline !important;padding-top:0px !important;line-height:2}
+.carsizeprice {display:inline;margin-left:10px}
+.carsizeprice span {display:inline-block}
+.space {margin:0px}
+.gotomodel select {width:100%}
+.manubutton {width:45%}
+.floatad {float:none;margin:0px auto 0px auto}
+.tiresizestopad {max-height:100px;margin:0px auto}
+.topadlimiter {width:auto;height:100px}
+.adlimiter {height:280px}
+#Pq {top:500px}
+}
+
+@media (max-width:359px) {
+.hbig {font-size:20px}
+.gensize {display:inline-block;width:120px}
+.sizedesc {display:block !important;width:auto !important}
+.bigproductad {width:300px}
+.bigproductad1 {width:300px}
+.bigproductad2 {width:300px}
+.headerad {width:300px}
+.contentad {width:300px}
+.floatad {width:300px;float:none;margin:0px auto 0px auto}
+.sidead {width:300px;margin:20px auto 0px auto}
+.simtires {width:290px;font-size:12px}
+.ridethumb img {width:115%}
+.manudivs a img {width:120px;height:120px}
+}
+
+@media (min-width:687px) and (max-width:767px){
+.gentires {width:336px !important}
+#Tireimage {width:300px}
+#Wheelimage {width:300px}
+#PriceWrap {}
+.yourthumb {font-size:12px;padding-top:16px}
+.ridethumb img {width:115%}
+#rebate {font-size:16px}
+}
+
+@media (min-width:480px) and (max-width:567px){
+.manubutton {width:45%}
+.floatad {float:none;margin:0px auto 0px auto}
+#CarCalcVisualizer {float:none;width:100%}
+#YourSizes {float:none;margin-bottom:20px;padding-right:10px;text-align:center;display:block}
+#YourSizes div {display:block}
+#showupsize {display:block}
+#closealt {display:block}
+.gensize {display:inline-block !important;width:120px}
+#ridecontainer {width:360px;margin:20px auto 5px auto}
+}
+
+@media (min-width:568px) and (max-width:686px){
+#ridecontainer {width:360px;margin:20px auto 5px auto}
+}
+
+@media (min-width:360px) and (max-width:479px) {
+.gensize {display:inline-block;width:120px}
+.sizedesc {display:block !important;width:auto !important}
+#ridecontainer {width:340px;margin:20px auto 5px auto}
+.ridethumb img {width:105%}
+}
+
+@media (max-width:329px) {
+.tiresizestopad {max-height:100px;margin:0px auto}
+.topadlimiter {width:auto;height:100px}
+.adlimiter {height:280px}
+.sugs {left:150px}
+.ridethumb img {width:120%}
+#mcompare {width:280px}
+#rebate {font-size:16px}
+.carsize {line-height:1.4}
+.carsizeprice {display:block;margin-left:125px}
+#cartireresultstab {width:320px;margin-left:-10px}
+#CookieNotice {height:60px}
+}
