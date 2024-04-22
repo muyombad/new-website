@@ -892,13 +892,14 @@
 <!--End testimonial area--> 
 
 <!--Start appoinment area-->
-<section class="appoinment-area">
+
+<section class="appoinment-area" style="background-color: blue;">
     <div class="container">
         <div class="row">
             <div class="col-md-9 col-sm-12 col-xs-12">
                 <div class="appoinment">
                     <div class="sec-title">
-                        <h1>Get an Appoinment</h1>
+                        <h1>Contact Us</h1>
                         <span class="border"></span>
                     </div>
                     <form id="appoi" class="appoinment-form" method="post" action="http://localhost:8000">
@@ -917,7 +918,7 @@
                                     <label>Phone*</label>
                                 </div>
                                 <div class="input-box">
-                                    <input class="sa" type="text" name="phone" id="Appointment_userPhone" placeholder="">
+                                    <input class="sa" type="text" name="phone"  id="Appointment_userPhone" placeholder="">
                                 </div>
                             </div>
 
@@ -938,7 +939,7 @@
                                     <label>Services*</label>
                                 </div>
                                 <div class="input-box">
-                                    <select required id="Appointment_services" class="selectmenu" name="service">
+                                    <select required id="Appointment_services" class="selectmenu" name="service" >
                                         <option selected="selected" disabled="disabled">Select services</option>
                                                         
                                         <option value="Basic Car Servicing">Real Estate</option>
@@ -1018,7 +1019,7 @@
             </div>
         </div>
         <div class="img-holder">
-            <img style="width: 370px; margin-bottom: 150px;" src="images/tyers/thisGT.jpg" alt="Awesome Image">
+            <img style="width: 670px;  margin-bottom: 150px; height: 330px; padding-left: 300px;" src="images/tyers/new-01.png" alt="Awesome Image">
         </div>
     </div>
     
@@ -1030,9 +1031,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="sec-title pull-left">
+                <div class="sec-title text-center">
                     <h1>Latest Blog Posts</h1>
-                    <span class="border"></span>
+                    <span class="border center" ></span>
                 </div>
                 <div class="more-button pull-right">
                     <a href="blog-grid.html">View More</a>
@@ -1193,20 +1194,39 @@
     </div>
     <div class="row">
         <div class="col-md-3 column">
-            <h4 style="color: blue;">Head Office</h4>
+            <h4 class="hede" >Head Office</h4>
             
             <div class="map-box" id="map1">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7559355772655!2d32.571003774454056!3d0.32040619967646483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb7b70ed2139%3A0x4a060216652cd65f!2sArrow%20Centre%20Uganda!5e0!3m2!1sen!2sug!4v1703669312267!5m2!1sen!2sug" width="250" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- Google Map embed code or API integration goes here -->
                 <!-- Replace this comment with your Google Maps code -->
             </div>
-            <p><strong>Arrow Centre (U) LTD</strong>
-                Plot No. 6,
-                Bombo Road Kampala Uganda,
-                Timings: Monday to Saturday
+            <style>
+            .hede{
+                text-transform: uppercase;
+                color: black;
+               font-size: 22px;
+               font-weight: 700;
+               cursor: pointer;
+               transition: 1s;
+            }
+            .hede:hover{
+                color: blue;
+            }
+
+                .offices{
+                    text-align: left;
+                    font-weight: 600;
+                    color: #000 !important;
+                }
+            </style>
+            <p class="offices "><strong>Arrow Centre (U) LTD</strong><br>
+                Plot No. 6
+                Bombo Road, Kampala
+                Hours: Monday to Saturday<br>
                 8:30am to 6:00pm <br>
                 H/L: +256 414 236 699 
-                <p class="fa fa-whatsapp"> +256 752 236 699</p>
+                <p style="width: 100%; ;" class="fa fa-whatsapp offices"> +256 752 236 699</p>
             </p>
             
         </div>
@@ -1219,7 +1239,7 @@
                 <!-- Google Map embed code or API integration goes here -->
                 <!-- Replace this comment with your Google Maps code -->
             </div>
-            <p><strong>Arrow Centre (U) LTD</strong>
+            <p class="offices"><strong>Arrow Centre (U) LTD</strong>
                 Plot No. 91, 
                 Jinja Road Kampala Uganda,
                 Timings: Monday to Saturday
@@ -1236,7 +1256,7 @@
                 <!-- Google Map embed code or API integration goes here -->
                 <!-- Replace this comment with your Google Maps code -->
             </div>
-            <p><strong>Arrow Centre (U) LTD</strong>
+            <p class="offices"><strong>Arrow Centre (U) LTD</strong>
                 Plot No. 50-52,
                 Sixth Street Kampala Uganda,
                 Timings: Monday to Saturday
@@ -1253,13 +1273,13 @@
                 <!-- Google Map embed code or API integration goes here -->
                 <!-- Replace this comment with your Google Maps code -->
             </div>
-            <p><strong>Arrow Centre (U) LTD</strong>
+            <p class="offices"><strong>Arrow Centre (U) LTD</strong>
                 Plot No. 6,
                 Bombo Road Kampala Uganda,
                 Timings: Monday to Saturday
                 8:30am to 6:00pm <br>
                 H/L: +256 414 236 699
-                <p class="fa fa-whatsapp"> +256 772 480 505</p>
+                <p style="width: 100%;" class="fa fa-whatsapp offices"> +256 772 480 505</p>
             </p>
                 
             
@@ -1267,8 +1287,9 @@
     </div>
 </div>
 
+
 <!--Start footer area-->  
-<footer class="footer-area">
+<footer class="footer-area" style="background-color: blue;">
     <div class="container">
         <div class="row">
             <!--Start single footer widget-->
@@ -1280,7 +1301,7 @@
                         </a>
                     </div>
                     <div class="our-info">
-                        <p>Arrow Centre (U) LTD a locally owned and registered company
+                        <p class="seme">Arrow Centre (U) LTD a locally owned and registered company
                              specializing in the importation, distribution, selling of
                               high quality and world class tyres, tubes, flaps and other tyre accessories.
                               The vehicle accessories include 
@@ -1295,13 +1316,13 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="single-footer-widget pd-bottom50">
                     <div class="title">
-                        <h3>Latest Blog Post</h3>
-                       <a href="blog-grid.html"> <p style="padding-top: 20px;">A wheel alignment is a mechanical
+                        <h3 class="capit">Latest Blog Post</h3>
+                       <a href="blog-grid.html"> <p style="padding-top: 20px;" class="seme">A wheel alignment is a mechanical
                              adjustment of your suspension system (th...</p></a>
-                        <p style="font-weight: 500;"><i class="fa fa-clock-o" ></i> <span>  </span>about a year ago</p>
+                        <p style="font-weight: 500; color: red !important;"><i class="fa fa-clock-o" ></i> <span>  </span>about a year ago</p>
                        <hr><br>
-                        <a  href="Tyre_Rotation.html">The key reason for rotating your tyres is to make sure that the tread on a...</a>
-                        <p style="font-weight: 500;"><i class="fa fa-clock-o" ></i> <span>  </span>about a year ago</p>
+                        <a  href="Tyre_Rotation.html" class="seme">The key reason for rotating your tyres is to make sure that the tread on a...</a>
+                        <p style="font-weight: 500; color: red !important;"><i class="fa fa-clock-o" ></i> <span>  </span>about a year ago</p>
                     </div>
                     
                 </div>
@@ -1311,16 +1332,16 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="single-footer-widget mar-bottom">
                     <div class="title" style="background-image: url(images/footer/map.png);">
-                        <h3>Contact</h3>
-                        <i style="margin-top: 20px;" class="fa fa-map-marker" ><span> </span>Plot 6, Bombo Road Kampala</i><i style="margin-top: 20px;" class="fa fa-phone"><span> </span>Phone +256-785-856-540</i><i style="margin-top: 20px;" class="fa fa-phone"><span> </span>Phone +256-752-236-699</i><i style="margin-top: 20px;" class="fa fa-phone"><span> </span>Phone +256-414-236-699</i>
-                        <i style="margin-top: 20px;" class="fa fa-map-marker" ><span> </span>Plot 91, Jinja Road </i>
-                        <i style="margin-top: 20px;" class="fa fa-map-marker" ><span> </span>Plot 50-52 Sixth Street </i>
-                        <i style="margin-top: 20px;" class="fa fa-phone"><span> </span>Phone +256-759-868072</i> 
-                         <i style="margin-top: 20px;" class="fa fa-envelope"><span> </span>arrowcentre@yahoo.com</i> <i style="margin-top: 20px;" class="fa fa-envelope"><span> </span>arrowcentreuganda@gmail.com</i>
-                        <i style="margin-top: 20px;" class="fa fa-whatsapp"><span> </span>+256-752-236-699</i>
+                        <h3 class="capit">Contact</h3>
+                        <i style="margin-top: 20px;" class="fa fa-map-marker seme" ><span> </span>Plot 6, Bombo Road Kampala</i><i style="margin-top: 20px;" class="fa fa-phone seme"><span> </span>Phone +256-785-856-540</i><i style="margin-top: 20px;" class="fa fa-phone seme"><span> </span>Phone +256-752-236-699</i><i style="margin-top: 20px;" class="fa fa-phone seme"><span> </span>Phone +256-414-236-699</i>
+                        <i style="margin-top: 20px;" class="fa fa-map-marker seme" ><span> </span >Plot 91, Jinja Road </i>
+                        <i style="margin-top: 20px;" class="fa fa-map-marker seme" ><span> </span>Plot 50-52 Sixth Street </i>
+                        <i style="margin-top: 20px;" class="fa fa-phone seme"><span> </span>Phone +256-759-868072</i> 
+                         <i style="margin-top: 20px;" class="fa fa-envelope seme"><span> </span>arrowcentre@yahoo.com</i> <i style="margin-top: 20px;" class="fa fa-envelope seme"><span> </span>arrowcentreuganda@gmail.com</i>
+                        <i style="margin-top: 20px;" class="fa fa-whatsapp seme"><span> </span>+256-752-236-699</i>
                         <br>
                         
-                        <p style="margin-top: 40px;"><a style="text-decoration: underline;" href="https://www.google.com/maps/place/Arrow+Centre+Uganda/@0.320406,32.573579,15z/data=!4m6!3m5!1s0x177dbb7b70ed2139:0x4a060216652cd65f!8m2!3d0.3204062!4d32.5735787!16s%2Fg%2F1tz0k222?hl=en&entry=ttu">Find Us On Map</a></p>
+                        <p style="margin-top: 40px; "><a style="text-decoration: underline; font-weight: 700;" class="capit" href="https://www.google.com/maps/place/Arrow+Centre+Uganda/@0.320406,32.573579,15z/data=!4m6!3m5!1s0x177dbb7b70ed2139:0x4a060216652cd65f!8m2!3d0.3204062!4d32.5735787!16s%2Fg%2F1tz0k222?hl=en&entry=ttu">Find Us On Map</a></p>
                     </div>
                 </div>
             </div>
@@ -1329,16 +1350,16 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="single-footer-widget clearfix">
                     <div class="title">
-                        <h3>Working Hours</h3>
+                        <h3 class="capit">Working Hours</h3>
                     </div>
-                    <ul class="working-hours">
-                        <li>Monday: <span>8:30 am - 6:00 pm</span></li>
-                        <li>Tuesday: <span>8:30 am - 6:00 pm</span></li>
-                        <li>Wednesday: <span>8:30 am - 6:00 pm</span></li>
-                        <li>Thursday: <span>8:30 am - 6:00 pm</span></li>
-                        <li>Friday: <span>8:30 am - 6:00 pm</span></li>
-                        <li>Saturday: <span>8:30 am - 5.30 pm</span></li>
-                        <li>Sunday: <span class="closed">Closed</span></li>
+                    <ul class="working-hours ">
+                        <li class="seme1">Monday: <span class="seme">8:30 am - 6:00 pm</span></li>
+                        <li class="seme1">Tuesday: <span class="seme">8:30 am - 6:00 pm</span></li>
+                        <li class="seme1">Wednesday: <span class="seme">8:30 am - 6:00 pm</span></li>
+                        <li class="seme1">Thursday: <span class="seme">8:30 am - 6:00 pm</span></li>
+                        <li class="seme1">Friday: <span class="seme">8:30 am - 6:00 pm</span></li>
+                        <li class="seme1">Saturday: <span class="seme">8:30 am - 5.30 pm</span></li>
+                        <li class="seme1">Sunday: <span class="closed seme">Closed</span></li>
                     </ul>
                 </div>
             </div>

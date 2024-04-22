@@ -63,11 +63,11 @@ input:-webkit-autofill:focus {
     width: 100% !important;
     border-radius: 0 !important;
     border: 1px solid #3b3f4f !important;
-    background: #303443 !important;
-    color: #ffffff !important;
-    font-size: 15px !important;
+    background: #fcfcfc !important;
+    color: #000000 !important;
+    font-size: 18px !important;
     font-family: 'Nunito', sans-serif !important;
-    font-weight: 400 !important;
+    font-weight: 800 !important;
     text-transform: capitalize;
 }
 .appoinment-area .appoinment .appoinment-form .ui-selectmenu-button {

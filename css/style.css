@@ -1579,15 +1579,15 @@ select:focus {
 }
 .appoinment-area .appoinment .appoinment-form .input-box input[type=text],
 .appoinment-area .appoinment .appoinment-form .input-box input[type=email]{
-    background: #303443;
+    background: #ffffff;
     width: 100%;
     border: 1px solid #3b3f4f;
     height: 50px;
     display: block;
     padding: 0 15px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 800;
     transition: all 500ms ease;
     font-family: 'Nunito', sans-serif;
 }
@@ -8027,4 +8027,21 @@ div.time div span {
     box-shadow: -3px 0px 10px -2px rgb(0 0 0 / 10%);
 }
 
+
+
+
+
+
+
+    .seme{
+        color: white !important;
+        font-weight: 700;
+    }
+    .capit{
+        text-transform: uppercase!important;
+    }
+    .seme1{
+        color: white !important;
+        font-weight: 700 !important; 
+    }
 
